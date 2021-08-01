@@ -1,5 +1,7 @@
 package com.core.document;
 
+import com.core.dto.EcosEnumType.CycleType;
+import com.core.dto.EcosEnumType.SearchFlag;
 import com.core.domain.EcosSchema;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -16,9 +18,9 @@ public class EcosMongoSchema {
         private  String pstatcode; // 상위 통계표 코드
         private  String statcode; // 000Y005             	통계표코드
         private  String statname; // 1.통화 및 유동성지표
-        private   String cycle;    //        주기
+        private CycleType cycle;    //        주기
         private  String orgname;         // 출처
-        private  String srchyn; // N
+        private SearchFlag srchyn; // N
 
 //        상위통계표코드	P_STAT_CODE	8	000Y074	상위통계표코드
 //        통계표코드	STAT_CODE	8	000Y702

@@ -1,7 +1,5 @@
 package com.core.config;
 
-import static com.core.config.properties.CoreProperties.ECOS_API_URL;
-
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +21,6 @@ public class RESTConfig {
     @Bean
     public WebClient webClient(WebClient.Builder builder) {
         return builder
-            .baseUrl(ECOS_API_URL)
             .defaultCookie("key", "value")
             .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
             .build();

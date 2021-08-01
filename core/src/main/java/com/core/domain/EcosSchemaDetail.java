@@ -1,13 +1,11 @@
 package com.core.domain;
 
+import com.core.dto.EcosEnumType.CycleType;
 import com.google.gson.annotations.SerializedName;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 
 @Entity
 @NoArgsConstructor
-@Table(name = "ecosschemadt")
+@Table(name = "ecosschemadetail")
 @Data
 public class EcosSchemaDetail {
         @Column(name = "id")
@@ -25,7 +23,9 @@ public class EcosSchemaDetail {
         @Field(name = "statname") @Column(name = "STAT_NAME") @SerializedName("STAT_NAME")        private  String statname;
         @Field(name = "grpcode") @Column(name = "GRP_CODE") @SerializedName("GRP_CODE")        private  String grpcode;
         @Field(name = "grpname") @Column(name = "GRP_NAME") @SerializedName("GRP_NAME")        private  String grpname;
-        @Field(name = "cycle") @Column(name = "CYCLE") @SerializedName("CYCLE")                 private  String cycle;
+        @Field(name = "cycle") @Column(name = "CYCLE") @SerializedName("CYCLE")
+//        @Enumerated(EnumType.STRING)
+        private CycleType cycle;
         @Field(name = "pitemcode") @Column(name = "P_ITEM_CODE") @SerializedName("P_ITEM_CODE")        private  String pitemcode;
         @Field(name = "itemcode") @Column(name = "ITEM_CODE") @SerializedName("ITEM_CODE")        private  String itemcode;
         @Field(name = "itemname") @Column(name = "ITEM_NAME") @SerializedName("ITEM_NAME")        private  String itemname;
@@ -33,9 +33,9 @@ public class EcosSchemaDetail {
         @Field(name = "endtime") @Column(name = "END_TIME") @SerializedName("END_TIME")        private  String endtime;
         @Field(name = "datacnt") @Column(name = "DATA_CNT") @SerializedName("DATA_CNT")        private  int datacnt;
 
-        @ManyToOne(fetch = FetchType.LAZY)
-        @JoinColumn(name = "STAT_CODE", insertable = false, updatable = false)
-        EcosSchema ecosSchema;
+//        @ManyToOne(fetch = FetchType.LAZY)
+//        @JoinColumn(name = "STAT_CODE", insertable = false, updatable = false)
+//        EcosSchema ecosSchema;
 
         //        상위통계표코드	P_STAT_CODE	8	000Y074	상위통계표코드
 //        통계표코드	STAT_CODE	8	000Y702

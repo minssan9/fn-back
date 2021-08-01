@@ -11,7 +11,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 
 @EnableScheduling
-public class ScheduledJobConfig {
+public class ScheduledJob {
 
     @Autowired
     EcosApiService ecosApiService;
@@ -25,7 +25,7 @@ public class ScheduledJobConfig {
         ecosDto.setQueryEndDate(nowDate);
         ecosDto.setQueryEndDate( nowDate);
 
-        ecosApiService.retrieveDataFromAllSchema(ecosDto);
+        ecosApiService.retrieveData(ecosDto);
     }
 
 }

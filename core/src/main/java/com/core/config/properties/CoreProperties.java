@@ -20,8 +20,8 @@ public class CoreProperties {
 
 
     @Value("${ecos-api-key}")
-    public static String ECOS_API_KEY;
+    private String ECOS_API_KEY;
     @Value("${ecos-api-url}")
-    public static String ECOS_API_URL;
+    private String ECOS_API_URL;
 
 }

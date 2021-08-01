@@ -35,7 +35,7 @@ public class EcosJobStep2Tasklet implements Tasklet {
         ecosDto.setQueryStartDate(startDate);
         ecosDto.setQueryEndDate(endDate);
 
-        ecosApiService.retrieveDataFromAllSchema(ecosDto);
+        ecosApiService.retrieveData(ecosDto);
 
         // step2 logic
 

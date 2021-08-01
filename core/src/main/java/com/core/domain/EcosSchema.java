@@ -1,8 +1,14 @@
 package com.core.domain;
 
+import com.core.dto.CycleTypeConverter;
+import com.core.dto.EcosEnumType.CycleType;
+import com.core.dto.EcosEnumType.SearchFlag;
 import com.google.gson.annotations.SerializedName;
 import javax.persistence.Column;
+import javax.persistence.Convert;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -22,10 +28,18 @@ public class EcosSchema {
         @Field("pstatcode") @SerializedName("P_STAT_CODE") @Column(name = "P_STAT_CODE") String pstatcode; // 상위 통계표 코드
         @Field("statcode") @SerializedName("STAT_CODE") @Column(name = "STAT_CODE") String statcode; // 000Y005             	통계표코드
         @Field("statname") @SerializedName("STAT_NAME") @Column(name = "STAT_NAME") String statname; // 1.통화 및 유동성지표
-        @Field("cycle") @SerializedName("CYCLE") @Column(name = "CYCLE")  String cycle;    //        주기
+        @Field("cycle") @SerializedName("CYCLE") @Column(name = "cycle")
+//        @Enumerated(EnumType.STRING)
+        @Convert(converter = CycleTypeConverter.class)
+        private CycleType cycle;    //        주기
         @Field("orgname") @SerializedName("ORG_NAME") @Column(name = "ORG_NAME") String orgname;         // 출처
-        @Field("searchFlag") @SerializedName("SRCH_YN") @Column(name = "SRCH_YN") String searchFlag; // N
+        @Field("searchFlag") @SerializedName("SRCH_YN") @Column(name = "SRCH_YN")
+        @Enumerated(EnumType.STRING)
+        SearchFlag searchFlag; // N
 
+
+//        @OneToMany(mappedBy = "ecosSchema")
+//        private List<EcosSchemaDetail> ecosSchemaDetailList = new ArrayList<>();
 
 //        상위통계표코드	P_STAT_CODE	8	000Y074	상위통계표코드
 //        통계표코드	STAT_CODE	8	000Y702

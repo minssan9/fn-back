@@ -18,12 +18,13 @@ spring:
         show_sql: true #하이버네이트가 실행하는 모든 SQL문을 콘솔로 출력해 준다.
         format_sql: true        #콘솔에 출력되는 JPA 실행 쿼리를 가독성있게 표현한다.
         use_sql_comments: true        #디버깅이 용이하도록 SQL문 이외에 추가적인 정보를 출력해 준다.
-    hibernate:
-      ddl-auto: none
-  data:
-    mongodb:
-      host: mongodb://fn:dugodwk1@voyagerss.com/fn?serverSelectionTimeoutMS=5000&connectTimeoutMS=10000
-      database: fn
+#    generate-ddl: true
+#    hibernate:
+#      ddl-auto: update
+#  data:
+#    mongodb:
+#      host: mongodb://fn:dugodwk1@voyagerss.com/fn?serverSelectionTimeoutMS=5000&connectTimeoutMS=10000
+#      database: fn
 
 db-mysql:
   driver-class-name: com.mysql.cj.jdbc.Driver

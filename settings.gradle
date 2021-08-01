@@ -1,4 +1,4 @@
-rootProject.name = 'financial-statistic'
+rootProject.name = 'fn-back'
 include 'core'
 include 'service'
 include 'batch'

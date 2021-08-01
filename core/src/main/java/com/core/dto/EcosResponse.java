@@ -1,4 +1,4 @@
-package com.service.dto;
+package com.core.dto;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;

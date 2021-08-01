@@ -5,6 +5,7 @@ import com.core.domain.EcosData;
 import com.core.domain.EcosSchema;
 import com.core.domain.EcosSchemaDetail;
 import com.core.dto.EcosDto;
+import com.core.dto.EcosEnumType.SearchFlag;
 import com.core.repo.EcosDataRepo;
 import com.core.repo.EcosSchemaDetailRepo;
 import com.core.repo.EcosSchemaRepo;
@@ -25,6 +26,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.util.UriComponentsBuilder;
+import sun.jvm.hotspot.ci.ciArrayKlass;
 
 @Slf4j
 @Service
@@ -49,17 +51,21 @@ public class EcosApiServiceImplWebClient implements EcosApiService {
     @Autowired
     private WebClient webClient;
 
-    public JsonObject getAPIData(EcosDto ecosDto) {
-        ecosDto.setAuthKey(coreProperties.ECOS_API_KEY);
+
+    @Override
+    public JsonObject getAPIData(EcosDto ecosDto) {        ;
+            ecosDto.setAuthKey(coreProperties.getECOS_API_KEY());
 
         String response = webClient.get()
-            .uri(coreProperties.ECOS_API_URL + getUrlString(ecosDto))
+            .uri(coreProperties.getECOS_API_URL() + getUrlString(ecosDto))
             .retrieve()
             .bodyToMono(String.class)
             .block();
         return gson.fromJson(response, JsonObject.class);
     }
 
+    @Override
+    @Transactional
     public List<EcosData> saveData(EcosDto ecosDto) {
         ecosDto.setServiceName("StatisticSearch");
 
@@ -80,29 +86,22 @@ public class EcosApiServiceImplWebClient implements EcosApiService {
         return ecosDataRepo.saveAll(ecosData);
     }
 
-
+    @Override
+    @Transactional
     public List<EcosSchema> retrieveSchema() {
         EcosDto ecosDto = new EcosDto();
         ecosDto.setServiceName("StatisticTableList");
 
-//        List<EcosSchema> ecosSchemas = new ArrayList<>();
-//        EcosResponse<EcosSchema> ecosSchemaResponse = getAPIData(ecosDto);
         JsonObject jsonObject = getAPIData(ecosDto);
-        jsonObject =  jsonObject.get("StatisticTableList").getAsJsonObject();
-        JsonArray jsonArray = jsonObject.get("row").getAsJsonArray();
+        JsonArray jsonArray =  jsonObject.get("StatisticTableList").getAsJsonObject().get("row").getAsJsonArray();
 
         Type listType = new TypeToken<List<EcosSchema>>() {}.getType();
         List<EcosSchema> ecosSchemas = gson.fromJson(jsonArray, listType);
 
         ecosSchemaRepo.deleteAll();;
-        ecosSchemas.forEach(ecosSchema -> ecosSchemaRepo.save(ecosSchema));
-//        JsonObject jsonObject = ecosSchemaResponse.getStatisticTableList();
-//        List<EcosSchema> ecosSchemaList = gson.toJson(ecosSchemaResponse.getStatisticTableList().getRow(), type);
-//        List<HashMap> ecosSchemaList = gson.fromJson(ecosSchemaResponse.getStatisticTableList().getRow(),HashMap.class);
-//        ecosSchemaResponse.getStatisticTableList().getRow().forEach(o ->{
-//            ecosSchemas.add(o);
-//            ecosSchemas.add(gson.fromJson(o.toString(), EcosSchema.class));
-//            });
+        ecosSchemas.forEach(ecosSchema -> {
+            ecosSchemaRepo.save(ecosSchema);
+        });
 
 //        List<EcosMongoSchema> ecosMongoSchemas = ecosSchemas.stream().map(krBankSchema ->
 //            new EcosMongoSchema(krBankSchema)
@@ -113,45 +112,61 @@ public class EcosApiServiceImplWebClient implements EcosApiService {
     }
 
     @Override
-    public List<EcosSchemaDetail> retrieveSchemaDetail(EcosSchema ecosSchema) {
-        List<EcosSchemaDetail> ecosSchemaDetails = new ArrayList<>();
-
-        List<EcosSchema> ecosSchemas = ecosSchemaRepo.findBySearchFlag("Y");
+    @Transactional
+    public List<EcosSchemaDetail> retrieveSchemaDetail() {
         EcosDto ecosDto = new EcosDto();
+        Type listType = new TypeToken<List<EcosSchemaDetail>>() {}.getType();
+        int totalCount =0;
         ecosDto.setServiceName("StatisticItemList");
 
-        ecosSchemas.forEach(ecosSchema1 -> {
-            ecosDto.setStatisticCode(ecosSchema1.getStatcode());
+        List<EcosSchemaDetail> ecosSchemaDetails = new ArrayList<>();
+        List<EcosSchema> ecosSchemas = ecosSchemaRepo.findBySearchFlag( SearchFlag.Y);
 
-//            EcosResponse ecosResponse = getAPIData(ecosDto);
-//            ecosResponse.getStatisticTableList().getRow().stream().map(o ->
-//                ecosSchemaDetails.add((EcosSchemaDetail) o));
+        ecosSchemas.forEach(ecosSchema -> {
+            ecosDto.setStatisticCode(ecosSchema.getStatcode());
+
+            //삭제하고
+            ecosSchemaDetailRepo.deleteByPitemcode(ecosSchema.getStatcode());
+
+            JsonObject jsonObject = getAPIData(ecosDto);
+            jsonObject.get(ecosDto.getServiceName()).getAsJsonObject().get("list_total_count").getAsInt();
+
+            JsonArray jsonArray =  jsonObject.get(ecosDto.getServiceName()).getAsJsonObject().get("row").getAsJsonArray();
+
+            List<EcosSchemaDetail> details = gson.fromJson(jsonArray, listType);
+            //새로운거 저장
+            ecosSchemaDetails.addAll(details);
         });
-
+        ecosSchemaDetailRepo.saveAll(ecosSchemaDetails);
 //        List<EcosMongoSchema> ecosMongoSchemas = ecosSchemas.stream().map(krBankSchema ->
 //            new EcosMongoSchema(krBankSchema)
 //        ).collect(Collectors.toList());
 
-//        ecosSchemaMongoRepo.saveAll(ecosMongoSchemas);
-        return ecosSchemaDetailRepo.saveAll(ecosSchemaDetails);
+        return ecosSchemaDetails;
     }
 
+    @Override
     @Transactional
-    public List<EcosSchemaDetail> retrieveDataFromAllSchema(EcosDto ecosDto) {
-        List<EcosSchemaDetail> ecosSchemaDetails = ecosSchemaDetailRepo.findAll();
+    public List<EcosData> retrieveData(EcosDto ecosDto) {
+        List<EcosData> ecosData = new ArrayList<>();
 
+        List<EcosSchemaDetail> ecosSchemaDetails = ecosSchemaDetailRepo.findByCycle(ecosDto.getCycleType().toString());
         ecosSchemaDetails.forEach(i -> {
             EcosDto ecosDto1 = new EcosDto(i);
             ecosDto1.setQueryStartDate(ecosDto.getQueryStartDate());
             ecosDto1.setQueryEndDate(ecosDto.getQueryEndDate());
-            saveData(ecosDto1);
+            ecosData.addAll(saveData(ecosDto1));
         });
-        return ecosSchemaDetails;
+        List<EcosSchema> ecosSchemas = ecosSchemaRepo.findByCycleAndSearchFlag(ecosDto.getCycleType(), SearchFlag.Y);
+        ecosSchemas.forEach(i -> {
+            EcosDto ecosDto1 = new EcosDto(i);
+            ecosDto1.setQueryStartDate(ecosDto.getQueryStartDate());
+            ecosDto1.setQueryEndDate(ecosDto.getQueryEndDate());
+            ecosData.addAll(saveData(ecosDto1));
+        });
+
+        return ecosData;
     }
-
-
-    //    http://ecos.bok.or.kr/api/StatisticTableList/sample/xml/kr/1/10/
-    //    http://ecos.bok.or.kr/api/StatisticSearch/sample/xml/kr/1/10/010Y002/MM/201101/201101/AAAA11/
     public URI getUrlString(EcosDto ecosDto) {
         String uriString =
             "/api/{serviceName}/{authKey}/{requestType}/{language}/{reqStartCount}/{reqEndCount}" +
@@ -160,6 +175,4 @@ public class EcosApiServiceImplWebClient implements EcosApiService {
             .buildAndExpand(new ObjectMapper().convertValue(ecosDto, Map.class))
             .toUri();
     }
-
-
 }

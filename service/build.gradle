@@ -2,19 +2,10 @@ plugins {
 }
 
 
-ext {
-	projectGroup = 'com.minssan9'
-	projectVersion = '0.0.1-'+new Date().format('yyyyMMddHHmmss')
-}
-
-version '1.0'
-sourceCompatibility = 1.8
-
 dependencies {
 	compile project(':core')
 
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-
 	implementation 'org.springdoc:springdoc-openapi-ui:1.5.3'
 
 //        implementation 'org.springframework.boot:spring-boot-starter-security'

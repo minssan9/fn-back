@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import com.core.apiservice.EcosApiService;
 import com.core.domain.EcosData;
+import com.core.dto.EcosEnumType.CycleType;
 import com.core.domain.EcosSchemaDetail;
 import com.core.dto.EcosDto;
 import java.time.LocalDateTime;
@@ -28,7 +29,7 @@ class EcosServiceImplTest {
     void getAPIKOSPI() {
         WebClient webClient = WebClient.create("http://ecos.bok.or.kr/api");
         String queryDate = "20210210";
-        EcosDto ecosDto = new EcosDto("064Y001", "0001000", "", "", queryDate, queryDate, "DD", 1L, 1000L);
+        EcosDto ecosDto = new EcosDto("064Y001", "0001000", "", "", queryDate, queryDate, CycleType.DD, 1L, 1000L);
 
         String ecosDataResponseMono  = webClient.get()
             .uri(uriBuilder ->
@@ -47,7 +48,7 @@ class EcosServiceImplTest {
     void batchKOSDAQ() {
         String queryDate = "20210210";
         List<EcosData> ecosData = ecosApiService.saveData(
-                new EcosDto("064Y001", "0001000", "", "", queryDate, queryDate, "DD", 1L, 1000L)
+                new EcosDto("064Y001", "0001000", "", "", queryDate, queryDate, CycleType.DD, 1L, 1000L)
         );
         assertNotNull(ecosData);
     }
@@ -59,7 +60,7 @@ class EcosServiceImplTest {
         ecosDto.setQueryStartDate(todayString);
         ecosDto.setQueryEndDate(todayString);
 
-        List<EcosSchemaDetail> ecosData =ecosApiService.retrieveDataFromAllSchema(ecosDto);
+        List<EcosSchemaDetail> ecosData =ecosApiService.retrieveData(ecosDto);
         assertNotNull(ecosData);
     }
 
