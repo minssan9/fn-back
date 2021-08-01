@@ -49,7 +49,7 @@ public class EcosApiServiceImplWebClient implements EcosApiService {
     @Autowired
     private WebClient webClient;
 
-    public JsonObject getAPIData(EcosDto ecosDto) {        ;
+    public JsonObject getAPIData(EcosDto ecosDto) {
         ecosDto.setAuthKey(coreProperties.ECOS_API_KEY);
 
         String response = webClient.get()

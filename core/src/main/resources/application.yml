@@ -42,6 +42,8 @@ kakao.admin.key: 9182554bcd6244da75828cfed4e62a65
 #app:
 ecos-api-key: A3KS6JOGXDYWDBC2XQ3Y
 ecos-api-url: http://ecos.bok.or.kr
+fred-api-key: 458b9943916b312467be56c964760715
+
 
 devtools: #jsp파일 서버 재시작 없이 바로 적용하기  spring-boot-devtools
   livereload:
