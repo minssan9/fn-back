@@ -2,11 +2,12 @@ package com.core.apiservice;
 
 import com.core.domain.EcosData;
 import com.core.domain.EcosSchema;
+import com.core.domain.EcosSchemaDetail;
 import com.core.dto.EcosDto;
 import com.google.gson.JsonObject;
-import java.util.List;
-import javafx.print.PrinterJob.JobStatus;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public interface EcosApiService<T> {
@@ -14,6 +15,6 @@ public interface EcosApiService<T> {
     JsonObject getAPIData( EcosDto ecosDto);
     List<EcosData> saveData(EcosDto ecosDto) ;
     List<EcosSchema> retrieveSchema();
-    JobStatus retrieveSchemaDetail();
+    List<EcosSchemaDetail> retrieveSchemaDetail();
     List<EcosData> retrieveData(EcosDto ecosDto);
 }

@@ -1,19 +1,19 @@
 package com.core.apiservice;
 
-import static com.core.config.properties.CoreProperties.DATE_STRING_FORMAT;
-import static org.junit.Assert.assertNotNull;
-
 import com.core.domain.EcosSchemaDetail;
 import com.core.dto.EcosDto;
-import java.time.LocalDateTime;
-import java.util.List;
-import javafx.print.PrinterJob.JobStatus;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Profile;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+import static com.core.config.properties.CoreProperties.DATE_STRING_FORMAT;
+import static org.junit.Assert.assertNotNull;
 
 @Profile("core")
 @SpringBootTest
@@ -43,8 +43,8 @@ class EcosApiServiceImplRESTTest {
 
     @Test
     void retrieveSchemaDetail() {
-        JobStatus jobStatus =  ecosApiService.retrieveSchemaDetail();
-        assertNotNull(jobStatus);
+        List<EcosSchemaDetail> result = ecosApiService.retrieveSchemaDetail();
+        assertNotNull(result);
     }
 
     @Test

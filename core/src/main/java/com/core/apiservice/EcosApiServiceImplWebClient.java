@@ -20,13 +20,13 @@ import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import javafx.print.PrinterJob.JobStatus;
 import javax.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.util.UriComponentsBuilder;
+import sun.jvm.hotspot.ci.ciArrayKlass;
 
 @Slf4j
 @Service
@@ -113,12 +113,13 @@ public class EcosApiServiceImplWebClient implements EcosApiService {
 
     @Override
     @Transactional
-    public JobStatus retrieveSchemaDetail() {
+    public List<EcosSchemaDetail> retrieveSchemaDetail() {
         EcosDto ecosDto = new EcosDto();
         Type listType = new TypeToken<List<EcosSchemaDetail>>() {}.getType();
         int totalCount =0;
         ecosDto.setServiceName("StatisticItemList");
 
+        List<EcosSchemaDetail> ecosSchemaDetails = new ArrayList<>();
         List<EcosSchema> ecosSchemas = ecosSchemaRepo.findBySearchFlag( SearchFlag.Y);
 
         ecosSchemas.forEach(ecosSchema -> {
@@ -132,16 +133,16 @@ public class EcosApiServiceImplWebClient implements EcosApiService {
 
             JsonArray jsonArray =  jsonObject.get(ecosDto.getServiceName()).getAsJsonObject().get("row").getAsJsonArray();
 
-            List<EcosSchemaDetail> ecosSchemaDetails = gson.fromJson(jsonArray, listType);
+            List<EcosSchemaDetail> details = gson.fromJson(jsonArray, listType);
             //새로운거 저장
-            ecosSchemaDetailRepo.saveAll(ecosSchemaDetails);
+            ecosSchemaDetails.addAll(details);
         });
-
+        ecosSchemaDetailRepo.saveAll(ecosSchemaDetails);
 //        List<EcosMongoSchema> ecosMongoSchemas = ecosSchemas.stream().map(krBankSchema ->
 //            new EcosMongoSchema(krBankSchema)
 //        ).collect(Collectors.toList());
 
-        return JobStatus.DONE;
+        return ecosSchemaDetails;
     }
 
     @Override
