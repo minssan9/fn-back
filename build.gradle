@@ -1,10 +1,11 @@
 plugins {
     id "java"
     id 'org.springframework.boot' version '2.4.2'
-    id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id "com.ewerk.gradle.plugins.querydsl" version "1.0.10"
 }
-
-bootJar.enabled = false
+apply plugin: 'idea'
+apply plugin: "com.ewerk.gradle.plugins.querydsl"
 
 repositories {
     mavenCentral()
@@ -16,8 +17,7 @@ ext {
     projectGroup = 'com.minssan9'
     lombokVersion = '1.18.18'
     springBootVersion = '2.4.2'
-    queryDslVersion = '4.2.1'
-    hibernateVersion = '5.4.5.Final'
+    queryDslVersion = '4.3.1' 
     projectVersion = '0.0.1-' + new Date().format('yyyyMMddHHmmss')
 }
 
@@ -26,37 +26,40 @@ allprojects {
     apply plugin: 'io.spring.dependency-management'
     apply plugin: 'org.springframework.boot'
 
-    group 'com.minssan9'
+    group projectGroup
     version '1.0'
     sourceCompatibility = 1.8
-    configurations { compileOnly { extendsFrom annotationProcessor } }
+    configurations {
+        compileOnly { extendsFrom annotationProcessor }
+    }
 
     dependencies {
+        implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+        implementation 'org.springframework.boot:spring-boot-starter-webflux'
+        implementation 'org.springframework.boot:spring-boot-starter-aop'
         implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
         implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
         implementation 'mysql:mysql-connector-java'
         implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.6.2'
 
+        annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+
+        compile("com.querydsl:querydsl-core:${queryDslVersion}")
+        implementation 'com.querydsl:querydsl-jpa'
+        implementation 'com.querydsl:querydsl-apt'
 
         compileOnly "org.projectlombok:lombok:${lombokVersion}"
         annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
         implementation("org.projectlombok:lombok:${lombokVersion}")
 
-        annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
-
-        implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-        implementation 'org.springframework.boot:spring-boot-starter-webflux'
-        implementation 'org.springframework.boot:spring-boot-starter-aop'
-
-        testImplementation 'org.springframework.boot:spring-boot-starter-test'
-        testImplementation 'io.projectreactor:reactor-test'
-//        compileOnly("org.springframework.boot:spring-boot-devtools")
-
         implementation 'org.slf4j:slf4j-api:1.7.25'
         implementation 'com.google.code.gson:gson'
 
         testImplementation 'org.springframework.boot:spring-boot-starter-test'
+        testImplementation 'io.projectreactor:reactor-test'
         testImplementation 'junit:junit:4.12'
+//        compileOnly("org.springframework.boot:spring-boot-devtools")
+
     }
 
     repositories {

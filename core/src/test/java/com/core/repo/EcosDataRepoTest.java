@@ -1,5 +1,6 @@
 package com.core.repo;
 
+import com.core.ecos.repo.EcosDataRepo;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

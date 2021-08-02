@@ -1,8 +1,8 @@
 package com.batch.job;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-import com.core.apiservice.EcosApiService;
-import com.core.domain.EcosSchema;
+import com.core.ecos.apiservice.EcosApiService;
+import com.core.ecos.domain.EcosSchema;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

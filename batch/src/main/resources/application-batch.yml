@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: fn-batch
+  batch:
+    job:
+      enabled: true
+      names: ${job.name:NONE}
+    initialize-schema: never
+    database:
+      incrementer:
+        class: org.springframework.jdbc.support.incrementer.MySQLMaxValueIncrementer
+
+#error / warn / debug / info / trace
+logging:
+  level:
+    sql: error
+    p6psy.p6spy: info
+    root: warn
+  file:
+    path: /var/log/${spring.application.name}-batch
+    name: ${logging.file.path}/${spring.application.name}.log

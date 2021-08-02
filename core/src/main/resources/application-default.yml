@@ -1,0 +1,86 @@
+spring:
+  data:
+    web:
+      pageable:
+        size-parameter: size
+        page-parameter: page
+        default-page-size: 20
+        one-indexed-parameters: false
+        max-page-size: 2000
+  decorator:
+    datasource:
+      p6spy:
+        logging: slf4j
+        enable-logging: on
+  jpa: #JPA 설정
+    open-in-view: true
+    show-sql: false
+    properties:
+      hibernate:
+#        dialect: org.hibernate.dialect.MariaDBDialect  #방언 설정 https://dololak.tistory.com/465, https://gigas-blog.tistory.com/119
+        show_sql: true #하이버네이트가 실행하는 모든 SQL문을 콘솔로 출력해 준다.
+        format_sql: true        #콘솔에 출력되는 JPA 실행 쿼리를 가독성있게 표현한다.
+        use_sql_comments: true        #디버깅이 용이하도록 SQL문 이외에 추가적인 정보를 출력해 준다.
+        jdbc:
+          batch_size: 100
+  output:
+    ansi:
+      enabled: always
+
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+
+  mail:
+    host: mail.gmail.com
+    properties:
+      mail:
+        smtp:
+          port: 25
+          auth: false
+        starttls:
+          enable: true
+
+##################################################################################################################
+# LOG4JDBC 관련
+##################################################################################################################
+logging:
+  level:
+    #    jdbc: DEBUG
+    #      #커넥션 open close 이벤트를 로그로 남긴다
+    #      connection: OFF
+    #      #SQL문만을 로그로 남기며, PreparedStatement일 경우 관련된 argument 값으로 대체된 SQL문이 보여진다.
+    #      sqlonly: OFF
+    #      #SQL문과 해당 SQL을 실행시키는데 수행된 시간 정보(milliseconds)를 포함한다.
+    #      sqltiming: DEBUG
+    #      #ResultSet을 제외한 모든 JDBC 호출 정보를 로그로 남긴다. 많은 양의 로그가 생성되므로 특별히 JDBC 문제를 추적해야 할 필요가 있는 경우를 제외하고는 사용을 권장하지 않는다.
+    #      audit: OFF
+    #      #ResultSet을 포함한 모든 JDBC 호출 정보를 로그로 남기므로 매우 방대한 양의 로그가 생성된다.
+    #      resultset: OFF
+    sql: error
+    p6psy.p6spy: info
+    root: info
+  pattern:
+    file: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+    console: "%d %-5level %logger : %msg%n"
+  logback:
+    rollingpolicy:
+      clean-history-on-start: false
+      max-file-size: 500MB
+      max-history: 10
+
+file:
+  upload-dir: /ftp
+#OAuth2
+encodeKey: secret
+#REST API
+kakao.client.id: e32a4d819f76b2ca4e652a2477ecf982
+#kakao pay
+kakao.admin.key: 9182554bcd6244da75828cfed4e62a65
+#app:
+ecos-api-key: A3KS6JOGXDYWDBC2XQ3Y
+ecos-api-url: http://ecos.bok.or.kr
+fred-api-key: 458b9943916b312467be56c964760715
+

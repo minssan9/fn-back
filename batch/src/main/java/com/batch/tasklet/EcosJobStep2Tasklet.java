@@ -1,7 +1,7 @@
 package com.batch.tasklet;
 
-import com.core.apiservice.EcosApiService;
-import com.core.dto.EcosDto;
+import com.core.ecos.apiservice.EcosApiService;
+import com.core.ecos.dto.EcosDto;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import lombok.extern.slf4j.Slf4j;

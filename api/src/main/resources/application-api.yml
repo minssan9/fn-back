@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: hallahds_api
+
+server:
+  port: 54000
+  forward-headers-strategy: framework

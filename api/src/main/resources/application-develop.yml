@@ -1,0 +1,50 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://voyagerss.com:3306/fn_statistic?characterEncoding=utf8&serverTimezone=UTC&useUnicode=true&createDatabaseIfNotExist=true
+    username: fn
+    password: dugodwk1
+#  data:
+#    mongodb:
+#      host: mongodb://fn:dugodwk1@voyagerss.com/fn?serverSelectionTimeoutMS=5000&connectTimeoutMS=10000
+#      database: fn
+
+db-mysql:
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://voyagerss.com:3306/fn_statistic?characterEncoding=utf8&serverTimezone=UTC&useUnicode=true&createDatabaseIfNotExist=true
+  username: fn
+  password: dugodwk1
+
+devtools: #jsp파일 서버 재시작 없이 바로 적용하기  spring-boot-devtools
+  livereload:
+    enabled: true
+
+#error / warn / debug / info / trace
+logging:
+  level:
+    sql: error
+    p6psy.p6spy: info
+    root: info
+  file:
+    path: /var/log/${spring.application.name}-develop
+    name: ${logging.file.path}/${spring.application.name}.log
+
+
+springdoc:
+  version: '1.0.0'
+  api-docs:
+    path: /v3/api-docs
+    groups:
+      enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: alpha
+    tags-sorter: alpha
+    display-request-duration: true
+    disable-swagger-default-url: true
+    display-query-params-without-oauth2: true
+  show-actuator: true
+  paths-to-match: /**
+  default-consumes-media-type: application/json
+  default-produces-media-type: application/json
+

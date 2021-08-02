@@ -1,7 +1,8 @@
 package com.core.apiservice;
 
-import com.core.domain.EcosSchemaDetail;
-import com.core.dto.EcosDto;
+import com.core.ecos.apiservice.EcosApiService;
+import com.core.ecos.domain.EcosSchemaDetail;
+import com.core.ecos.dto.EcosDto;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

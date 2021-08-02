@@ -4,11 +4,11 @@ package com.core.service;
 import static com.core.config.properties.CoreProperties.DATE_STRING_FORMAT;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import com.core.apiservice.EcosApiService;
-import com.core.domain.EcosData;
-import com.core.dto.EcosEnumType.CycleType;
-import com.core.domain.EcosSchemaDetail;
-import com.core.dto.EcosDto;
+import com.core.ecos.apiservice.EcosApiService;
+import com.core.ecos.domain.EcosData;
+import com.core.ecos.dto.EcosEnumType.CycleType;
+import com.core.ecos.domain.EcosSchemaDetail;
+import com.core.ecos.dto.EcosDto;
 import java.time.LocalDateTime;
 import java.util.List;
 import org.junit.jupiter.api.Test;
@@ -47,7 +47,7 @@ class EcosServiceImplTest {
     @Test
     void batchKOSDAQ() {
         String queryDate = "20210210";
-        List<EcosData> ecosData = ecosApiService.saveData(
+        List<EcosData> ecosData = ecosApiService.getDataFromAPI(
                 new EcosDto("064Y001", "0001000", "", "", queryDate, queryDate, CycleType.DD, 1L, 1000L)
         );
         assertNotNull(ecosData);
