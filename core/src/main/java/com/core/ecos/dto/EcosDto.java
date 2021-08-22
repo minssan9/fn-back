@@ -13,6 +13,7 @@ import org.springframework.util.MultiValueMap;
 @Data
 @NoArgsConstructor
 public class EcosDto extends RestDto {
+
     private String url = "ECOS_API_URL";
     private String serviceName = "";
     private String authKey = "ECOS_API_KEY";

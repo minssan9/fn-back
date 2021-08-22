@@ -1,0 +1,7047 @@
+{
+  "StatisticTableList": {
+    "list_total_count": 880,
+    "row": [
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "1.통화 및 유동성지표",
+        "STAT_CODE": "000Y005",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.1.주요 통화금융지표",
+        "STAT_CODE": "010Y002",
+        "P_STAT_CODE": "000Y005"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "1.2.본원통화",
+        "STAT_CODE": "000Y074",
+        "P_STAT_CODE": "000Y005"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "1.2.1 본원통화 구성내역(말잔)",
+        "STAT_CODE": "000Y701",
+        "P_STAT_CODE": "000Y074"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.2.1.1 본원통화 구성내역(말잔, 계절조정계열)",
+        "STAT_CODE": "054Y407",
+        "P_STAT_CODE": "000Y701"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.2.1.2 본원통화 구성내역(말잔,원계열)",
+        "STAT_CODE": "054Y007",
+        "P_STAT_CODE": "000Y701"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "1.2.2 본원통화 구성내역(평잔)",
+        "STAT_CODE": "000Y702",
+        "P_STAT_CODE": "000Y074"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.2.2.1 본원통화 구성내역(평잔, 계절조정계열)",
+        "STAT_CODE": "054Y408",
+        "P_STAT_CODE": "000Y702"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.2.2.2 본원통화 구성내역(평잔,원계열)",
+        "STAT_CODE": "054Y008",
+        "P_STAT_CODE": "000Y702"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "1.3.M2(광의통화)",
+        "STAT_CODE": "000Y006",
+        "P_STAT_CODE": "000Y005"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "1.3.1 M2 상품별구성내역(말잔)",
+        "STAT_CODE": "000Y703",
+        "P_STAT_CODE": "000Y006"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.3.1.1 M2 상품별구성내역(말잔, 계절조정계열)",
+        "STAT_CODE": "001Y406",
+        "P_STAT_CODE": "000Y703"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.3.1.2 M2 상품별구성내역(말잔,원계열)",
+        "STAT_CODE": "001Y006",
+        "P_STAT_CODE": "000Y703"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "1.3.2 M2 상품별구성내역(평잔)",
+        "STAT_CODE": "000Y704",
+        "P_STAT_CODE": "000Y006"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.3.2.1 M2 상품별구성내역(평잔, 계절조정계열)",
+        "STAT_CODE": "001Y407",
+        "P_STAT_CODE": "000Y704"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.3.2.2 M2 상품별구성내역(평잔,원계열)",
+        "STAT_CODE": "001Y007",
+        "P_STAT_CODE": "000Y704"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "1.3.3 M2 경제주체별 보유현황(말잔)",
+        "STAT_CODE": "000Y705",
+        "P_STAT_CODE": "000Y006"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.3.3.1 M2 경제주체별 보유현황(말잔, 계절조정계열)",
+        "STAT_CODE": "001Y450",
+        "P_STAT_CODE": "000Y705"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.3.3.2 M2 경제주체별 보유현황(말잔, 원계열)",
+        "STAT_CODE": "001Y452",
+        "P_STAT_CODE": "000Y705"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "1.3.4 M2 경제주체별 보유현황(평잔)",
+        "STAT_CODE": "000Y706",
+        "P_STAT_CODE": "000Y006"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.3.4.1 M2 경제주체별 보유현황(평잔, 계절조정계열)",
+        "STAT_CODE": "001Y451",
+        "P_STAT_CODE": "000Y706"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.3.4.2 M2 경제주체별 보유현황(평잔, 원계열)",
+        "STAT_CODE": "001Y453",
+        "P_STAT_CODE": "000Y706"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.3.5 M2 기관별구성내역(말잔)",
+        "STAT_CODE": "001Y008",
+        "P_STAT_CODE": "000Y006"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.3.6 M2 기관별구성내역(평잔)",
+        "STAT_CODE": "001Y009",
+        "P_STAT_CODE": "000Y006"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.4.예금취급기관 개관표  (종합표,말잔)",
+        "STAT_CODE": "001Y003",
+        "P_STAT_CODE": "000Y005"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.4.1 중앙은행 개관표(말잔)",
+        "STAT_CODE": "001Y004",
+        "P_STAT_CODE": "001Y003"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.4.2 기타예금취급기관 개관표(말잔)",
+        "STAT_CODE": "001Y005",
+        "P_STAT_CODE": "001Y003"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "1.5.Lf(금융기관 유동성)  관련통계",
+        "STAT_CODE": "000Y042",
+        "P_STAT_CODE": "000Y005"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "1.5.1 Lf 상품별구성내역(말잔)",
+        "STAT_CODE": "000Y707",
+        "P_STAT_CODE": "000Y042"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.5.1.1 Lf 상품별구성내역(말잔, 계절조정계열)",
+        "STAT_CODE": "075Y401",
+        "P_STAT_CODE": "000Y707"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.5.1.2 Lf 상품별 구성내역(말잔,원계열)",
+        "STAT_CODE": "075Y001",
+        "P_STAT_CODE": "000Y707"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "1.5.2 Lf 상품별구성내역(평잔)",
+        "STAT_CODE": "000Y708",
+        "P_STAT_CODE": "000Y042"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.5.2.1 Lf 상품별구성내역(평잔, 계절조정계열)",
+        "STAT_CODE": "075Y402",
+        "P_STAT_CODE": "000Y708"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.5.2.2 Lf 상품별 구성내역(평잔,원계열)",
+        "STAT_CODE": "075Y002",
+        "P_STAT_CODE": "000Y708"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.5.3 Lf 기관별 구성내역(말잔)",
+        "STAT_CODE": "075Y003",
+        "P_STAT_CODE": "000Y042"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.5.4 Lf 기관별 구성내역(평잔)",
+        "STAT_CODE": "075Y004",
+        "P_STAT_CODE": "000Y042"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "1.6.L(광의유동성)구성내역(말잔)",
+        "STAT_CODE": "000Y709",
+        "P_STAT_CODE": "000Y005"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.6.1 L(광의유동성) 구성내역(말잔, 계절조정계열)",
+        "STAT_CODE": "076Y401",
+        "P_STAT_CODE": "000Y709"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "1.6.2 L(광의유동성) 구성  내역(말잔,원계열)",
+        "STAT_CODE": "076Y001",
+        "P_STAT_CODE": "000Y709"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "2.한국은행 주요계정 및 기준금리",
+        "STAT_CODE": "000Y055",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "2.1.한국은행 주요계정  (말잔)",
+        "STAT_CODE": "054Y001",
+        "P_STAT_CODE": "000Y055"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "2.2.화폐발행잔액",
+        "STAT_CODE": "054Y002",
+        "P_STAT_CODE": "000Y055"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "2.3.예금은행 지급준비액  (평잔)",
+        "STAT_CODE": "050Y001",
+        "P_STAT_CODE": "000Y055"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "HM",
+        "STAT_NAME": "2.4.예금은행 지급준비액  (평잔,신,2008.2월상반월)",
+        "STAT_CODE": "050Y002",
+        "P_STAT_CODE": "000Y055"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "2.5.한국은행 원화대출금(말잔)",
+        "STAT_CODE": "054Y005",
+        "P_STAT_CODE": "000Y055"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "DD",
+        "STAT_NAME": "2.6.한국은행 기준금리 및 여수신금리",
+        "STAT_CODE": "098Y001",
+        "P_STAT_CODE": "000Y055"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "3.예금/대출금/기타금융",
+        "STAT_CODE": "000Y007",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "3.1.예금은행 수신",
+        "STAT_CODE": "000Y057",
+        "P_STAT_CODE": "000Y007"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.1.1 예금은행 종별예금(말잔)",
+        "STAT_CODE": "001Y011",
+        "P_STAT_CODE": "000Y057"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.1.2 예금은행 종별예금(평잔)",
+        "STAT_CODE": "001Y048",
+        "P_STAT_CODE": "000Y057"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.1.3 예금은행 예금주별예금(말잔)",
+        "STAT_CODE": "001Y051",
+        "P_STAT_CODE": "000Y057"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.1.4 예금은행 기간별 정기예금(말잔)",
+        "STAT_CODE": "001Y052",
+        "P_STAT_CODE": "000Y057"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.1.5 예금은행 총수신(말잔)",
+        "STAT_CODE": "004Y013",
+        "P_STAT_CODE": "000Y057"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.1.6 예금은행 총수신(평잔)",
+        "STAT_CODE": "004Y014",
+        "P_STAT_CODE": "000Y057"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.2.예금은행 자금별  대출금(말잔)",
+        "STAT_CODE": "001Y012",
+        "P_STAT_CODE": "000Y007"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "3.3.산업별대출금",
+        "STAT_CODE": "000Y600",
+        "P_STAT_CODE": "000Y007"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "3.3.1 예금취급기관",
+        "STAT_CODE": "000Y601",
+        "P_STAT_CODE": "000Y600"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "3.3.1.1 산업별대출금(예금취급기관)",
+        "STAT_CODE": "007Y020",
+        "P_STAT_CODE": "000Y601"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "3.3.1.2 시설자금(예금취급기관)",
+        "STAT_CODE": "007Y021",
+        "P_STAT_CODE": "000Y601"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "3.3.2 예금은행",
+        "STAT_CODE": "000Y602",
+        "P_STAT_CODE": "000Y600"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "3.3.2.1 산업별대출금(예금은행)",
+        "STAT_CODE": "007Y014",
+        "P_STAT_CODE": "000Y602"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "3.3.2.2 시설자금(예금은행) ",
+        "STAT_CODE": "007Y015",
+        "P_STAT_CODE": "000Y602"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "3.3.2.3 기업형태별(예금은행)",
+        "STAT_CODE": "007Y114",
+        "P_STAT_CODE": "000Y602"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "3.3.3 예금은행 지역별",
+        "STAT_CODE": "000Y603",
+        "P_STAT_CODE": "000Y600"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "3.3.3.1 총대출금(지역별)",
+        "STAT_CODE": "087Y001",
+        "P_STAT_CODE": "000Y603"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "3.3.3.2 시설자금(지역별)",
+        "STAT_CODE": "087Y003",
+        "P_STAT_CODE": "000Y603"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "3.3.4 비은행예금취급기관",
+        "STAT_CODE": "000Y604",
+        "P_STAT_CODE": "000Y600"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "3.3.4.1 산업별대출금(비은행예금취급기관)",
+        "STAT_CODE": "007Y016",
+        "P_STAT_CODE": "000Y604"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "3.3.4.2 시설자금(비은행예금취급기관)",
+        "STAT_CODE": "007Y018",
+        "P_STAT_CODE": "000Y604"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "3.4.비은행금융기관 수신  및 여신",
+        "STAT_CODE": "000Y043",
+        "P_STAT_CODE": "000Y007"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.4.1 비은행기관 수신(말잔)",
+        "STAT_CODE": "075Y005",
+        "P_STAT_CODE": "000Y043"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.4.2 비은행기관 수신(평잔)",
+        "STAT_CODE": "075Y006",
+        "P_STAT_CODE": "000Y043"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.4.3 비은행기관 여신(말잔)",
+        "STAT_CODE": "075Y008",
+        "P_STAT_CODE": "000Y043"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "3.5.지역별 여수신",
+        "STAT_CODE": "000Y061",
+        "P_STAT_CODE": "000Y007"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "3.5.1 예금은행 수신 및 여신",
+        "STAT_CODE": "000Y062",
+        "P_STAT_CODE": "000Y061"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.5.1.1 예금은행 지역별예금(말잔)",
+        "STAT_CODE": "088Y002",
+        "P_STAT_CODE": "000Y062"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.5.1.2 예금은행 지역별대출금(말잔)",
+        "STAT_CODE": "088Y003",
+        "P_STAT_CODE": "000Y062"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.5.1.3 예금은행 기업대출금(말잔)",
+        "STAT_CODE": "088Y004",
+        "P_STAT_CODE": "000Y062"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "3.5.2 비은행예금취급기관 수신 및 여신",
+        "STAT_CODE": "000Y063",
+        "P_STAT_CODE": "000Y061"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.5.2.1 비은행예금취급기관 수신(말잔)",
+        "STAT_CODE": "088Y011",
+        "P_STAT_CODE": "000Y063"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.5.2.2 비은행예금취급기관 여신(말잔)",
+        "STAT_CODE": "088Y012",
+        "P_STAT_CODE": "000Y063"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.5.2.3 비은행예금취급기관 기업대출금",
+        "STAT_CODE": "088Y015",
+        "P_STAT_CODE": "000Y063"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "3.5.3 생명보험회사 수신 및 여신",
+        "STAT_CODE": "000Y064",
+        "P_STAT_CODE": "000Y061"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.5.3.1 생명보험회사 수신(말잔)",
+        "STAT_CODE": "088Y013",
+        "P_STAT_CODE": "000Y064"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.5.3.2 생명보험회사 여신(말잔)",
+        "STAT_CODE": "088Y014",
+        "P_STAT_CODE": "000Y064"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "3.6.가계신용",
+        "STAT_CODE": "000Y065",
+        "P_STAT_CODE": "000Y007"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "3.6.1 가계신용(분기별)",
+        "STAT_CODE": "008Y001",
+        "P_STAT_CODE": "000Y065"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.6.2 예금취급기관의 가계대출(월별)",
+        "STAT_CODE": "008Y002",
+        "P_STAT_CODE": "000Y065"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.6.3 예금취급기관의 가계대출 지역별(월별)",
+        "STAT_CODE": "008Y003",
+        "P_STAT_CODE": "000Y065"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "3.7.기타금융통계",
+        "STAT_CODE": "000Y305",
+        "P_STAT_CODE": "000Y007"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.7.1 예금은행 예금회전율",
+        "STAT_CODE": "011Y001",
+        "P_STAT_CODE": "000Y305"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "금융감독원(☎ 02-3145-8312, 8313)",
+        "CYCLE": "QQ",
+        "STAT_NAME": "3.7.2 금융기관 점포 및 인원현황",
+        "STAT_CODE": "085Y001",
+        "P_STAT_CODE": "000Y305"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "금융감독원(☎ 02-3145-8197,8591)",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.7.3 은행대출금 연체율",
+        "STAT_CODE": "085Y002",
+        "P_STAT_CODE": "000Y305"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "생명보험협회(02-2262-6600)",
+        "CYCLE": "MM",
+        "STAT_NAME": "3.7.4 보험계약실적",
+        "STAT_CODE": "085Y010",
+        "P_STAT_CODE": "000Y305"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "HY",
+        "STAT_NAME": "3.7.5 예금규모별 계좌 및 금액",
+        "STAT_CODE": "009Y014",
+        "P_STAT_CODE": "000Y305"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "4.금 리",
+        "STAT_CODE": "000Y008",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "4.1.시장금리",
+        "STAT_CODE": "000Y077",
+        "P_STAT_CODE": "000Y008"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "DD",
+        "STAT_NAME": "4.1.1 시장금리(일별)",
+        "STAT_CODE": "060Y001",
+        "P_STAT_CODE": "000Y077"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "4.1.2 시장금리(월,분기,년)",
+        "STAT_CODE": "028Y001",
+        "P_STAT_CODE": "000Y077"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "4.2.예금은행  가중평균금리",
+        "STAT_CODE": "000Y078",
+        "P_STAT_CODE": "000Y008"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "4.2.1 수신금리",
+        "STAT_CODE": "000Y091",
+        "P_STAT_CODE": "000Y078"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "4.2.1.1 신규취급액 기준",
+        "STAT_CODE": "005Y001",
+        "P_STAT_CODE": "000Y091"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "4.2.1.2 잔액 기준",
+        "STAT_CODE": "005Y005",
+        "P_STAT_CODE": "000Y091"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "4.2.2 대출금리",
+        "STAT_CODE": "000Y092",
+        "P_STAT_CODE": "000Y078"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "4.2.2.1 신규취급액 기준",
+        "STAT_CODE": "005Y003",
+        "P_STAT_CODE": "000Y092"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "4.2.2.2 잔액 기준",
+        "STAT_CODE": "005Y006",
+        "P_STAT_CODE": "000Y092"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "4.3.예금은행 금리수준별 여수신 비중",
+        "STAT_CODE": "005Y010",
+        "P_STAT_CODE": "000Y008"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "4.4.예금은행 고정 및 특정 금리연동대출 비중",
+        "STAT_CODE": "000Y119",
+        "P_STAT_CODE": "000Y008"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "4.4.1 신규취급액 기준",
+        "STAT_CODE": "005Y011",
+        "P_STAT_CODE": "000Y119"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "4.4.2 잔액 기준",
+        "STAT_CODE": "005Y012",
+        "P_STAT_CODE": "000Y119"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "4.5.비은행금융기관  가중평균금리",
+        "STAT_CODE": "000Y079",
+        "P_STAT_CODE": "000Y008"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "4.5.1 수신금리(신규취급액기준)",
+        "STAT_CODE": "005Y002",
+        "P_STAT_CODE": "000Y079"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "4.5.2 대출금리(신규취급액기준)",
+        "STAT_CODE": "005Y004",
+        "P_STAT_CODE": "000Y079"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "5.지급결제",
+        "STAT_CODE": "000Y009",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "5.1.어음교환 및 부도",
+        "STAT_CODE": "000Y075",
+        "P_STAT_CODE": "000Y009"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "5.1.1 어음교환 및 부도",
+        "STAT_CODE": "028Y102",
+        "P_STAT_CODE": "000Y075"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "5.1.2 지역별 어음부도율",
+        "STAT_CODE": "028Y110",
+        "P_STAT_CODE": "000Y075"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "5.2.한은금융망",
+        "STAT_CODE": "028Y105",
+        "P_STAT_CODE": "000Y009"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "5.3.지로시스템",
+        "STAT_CODE": "028Y103",
+        "P_STAT_CODE": "000Y009"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "5.4.금융공동망",
+        "STAT_CODE": "028Y104",
+        "P_STAT_CODE": "000Y009"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "5.5.BIS기준통계",
+        "STAT_CODE": "000Y109",
+        "P_STAT_CODE": "000Y009"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "5.5.1 결제시스템별 통계",
+        "STAT_CODE": "043Y050",
+        "P_STAT_CODE": "000Y109"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "5.5.2 지급수단별 통계",
+        "STAT_CODE": "043Y051",
+        "P_STAT_CODE": "000Y109"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "5.6.전자금융통계",
+        "STAT_CODE": "000Y209",
+        "P_STAT_CODE": "000Y009"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "5.6.1 인터넷뱅킹",
+        "STAT_CODE": "043Y052",
+        "P_STAT_CODE": "000Y209"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "5.6.2 전자어음",
+        "STAT_CODE": "043Y053",
+        "P_STAT_CODE": "000Y209"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "5.6.3 전자화폐",
+        "STAT_CODE": "043Y054",
+        "P_STAT_CODE": "000Y209"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "5.6.4 전자지급서비스",
+        "STAT_CODE": "000Y249",
+        "P_STAT_CODE": "000Y209"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "5.6.4.1 전자지급결제대행",
+        "STAT_CODE": "043Y064",
+        "P_STAT_CODE": "000Y249"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "5.6.4.2 결제대금예치",
+        "STAT_CODE": "043Y065",
+        "P_STAT_CODE": "000Y249"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "5.6.4.3 선불전자지급수단",
+        "STAT_CODE": "043Y066",
+        "P_STAT_CODE": "000Y249"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "5.6.4.4 전자고지결제",
+        "STAT_CODE": "043Y067",
+        "P_STAT_CODE": "000Y249"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "5.6.4.5 직불전자지급수단",
+        "STAT_CODE": "043Y068",
+        "P_STAT_CODE": "000Y249"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "5.7.회계시스템통계",
+        "STAT_CODE": "000Y309",
+        "P_STAT_CODE": "000Y009"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "5.7.1 한은금융망결제통계표",
+        "STAT_CODE": "043Y055",
+        "P_STAT_CODE": "000Y309"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "5.7.2 지급결제동향",
+        "STAT_CODE": "043Y057",
+        "P_STAT_CODE": "000Y309"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "5.8.신용카드",
+        "STAT_CODE": "043Y700",
+        "P_STAT_CODE": "000Y009"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "5.8.1 신용카드",
+        "STAT_CODE": "043Y013",
+        "P_STAT_CODE": "043Y700"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "5.8.2 지역별 소비유형별 개인 신용카드",
+        "STAT_CODE": "043Y070",
+        "P_STAT_CODE": "043Y700"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "여신금융협회",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.8.3 가맹점(여신금융협회)",
+        "STAT_CODE": "043Y071",
+        "P_STAT_CODE": "043Y700"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "5.9.금융정보화 통계",
+        "STAT_CODE": "000Y900",
+        "P_STAT_CODE": "000Y009"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "5.9.1 은행",
+        "STAT_CODE": "000Y910",
+        "P_STAT_CODE": "000Y900"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.1.1 전산직원 현황",
+        "STAT_CODE": "106Y001",
+        "P_STAT_CODE": "000Y910"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.1.2 전산사무기기 현황",
+        "STAT_CODE": "106Y002",
+        "P_STAT_CODE": "000Y910"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.1.3 전산예산현황",
+        "STAT_CODE": "106Y003",
+        "P_STAT_CODE": "000Y910"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.1.4 전자금융서비스현황",
+        "STAT_CODE": "106Y004",
+        "P_STAT_CODE": "000Y910"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.1.5 CD/ATM 현황",
+        "STAT_CODE": "106Y005",
+        "P_STAT_CODE": "000Y910"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.1.6 직불카드 발급 및 이용현황",
+        "STAT_CODE": "106Y006",
+        "P_STAT_CODE": "000Y910"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.1.7 체크카드 발급 및 이용현황",
+        "STAT_CODE": "106Y007",
+        "P_STAT_CODE": "000Y910"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.1.8 금융공동망현황",
+        "STAT_CODE": "106Y008",
+        "P_STAT_CODE": "000Y910"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.1.9 금융공동망의 외부정보망과의 접속현황",
+        "STAT_CODE": "106Y009",
+        "P_STAT_CODE": "000Y910"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "5.9.2 증권",
+        "STAT_CODE": "000Y920",
+        "P_STAT_CODE": "000Y900"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.2.1 전산직원 현황",
+        "STAT_CODE": "106Y101",
+        "P_STAT_CODE": "000Y920"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.2.2 전산사무기기현황",
+        "STAT_CODE": "106Y102",
+        "P_STAT_CODE": "000Y920"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.2.3 전산예산현황",
+        "STAT_CODE": "106Y103",
+        "P_STAT_CODE": "000Y920"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.2.4 전자금융서비스현황",
+        "STAT_CODE": "106Y104",
+        "P_STAT_CODE": "000Y920"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.2.5 자체 CD/ATM",
+        "STAT_CODE": "106Y105",
+        "P_STAT_CODE": "000Y920"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.2.6 증권정보망",
+        "STAT_CODE": "106Y106",
+        "P_STAT_CODE": "000Y920"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "5.9.3 보험",
+        "STAT_CODE": "000Y930",
+        "P_STAT_CODE": "000Y900"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.3.1 전산직원현황",
+        "STAT_CODE": "106Y201",
+        "P_STAT_CODE": "000Y930"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.3.2 전산사무기기현황",
+        "STAT_CODE": "106Y202",
+        "P_STAT_CODE": "000Y930"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.3.3 전산예산현황",
+        "STAT_CODE": "106Y203",
+        "P_STAT_CODE": "000Y930"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.3.4 전자금융서비스현황",
+        "STAT_CODE": "106Y204",
+        "P_STAT_CODE": "000Y930"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.3.5 공동이용시스템이용실적",
+        "STAT_CODE": "106Y205",
+        "P_STAT_CODE": "000Y930"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "5.9.4 기타",
+        "STAT_CODE": "000Y940",
+        "P_STAT_CODE": "000Y900"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.4.1 전산직원현황",
+        "STAT_CODE": "106Y301",
+        "P_STAT_CODE": "000Y940"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.4.2 전산사무기기현황",
+        "STAT_CODE": "106Y302",
+        "P_STAT_CODE": "000Y940"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "5.9.4.3 전산예산현황",
+        "STAT_CODE": "106Y303",
+        "P_STAT_CODE": "000Y940"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "6.증권/재정",
+        "STAT_CODE": "000Y028",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "6.1.주식거래 및 주가지수",
+        "STAT_CODE": "000Y076",
+        "P_STAT_CODE": "000Y028"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국거래소(051-662-2000)",
+        "CYCLE": "DD",
+        "STAT_NAME": "6.1.1 주식시장(일별)",
+        "STAT_CODE": "064Y001",
+        "P_STAT_CODE": "000Y076"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국거래소(051-662-2000)",
+        "CYCLE": "MM",
+        "STAT_NAME": "6.1.2 주식거래 및 주가지수",
+        "STAT_CODE": "028Y015",
+        "P_STAT_CODE": "000Y076"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국거래소(051-662-2000)",
+        "CYCLE": "MM",
+        "STAT_NAME": "6.1.3 투자자별 주식거래",
+        "STAT_CODE": "085Y004",
+        "P_STAT_CODE": "000Y076"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "금융투자협회(02-2003-9000)",
+        "CYCLE": "MM",
+        "STAT_NAME": "6.1.4 증시주변자금동향",
+        "STAT_CODE": "085Y005",
+        "P_STAT_CODE": "000Y076"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국거래소(051-662-2000)",
+        "CYCLE": "MM",
+        "STAT_NAME": "6.1.5 주가지수선물거래",
+        "STAT_CODE": "085Y007",
+        "P_STAT_CODE": "000Y076"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국거래소(051-662-2000)",
+        "CYCLE": "MM",
+        "STAT_NAME": "6.1.6 주가지수옵션거래",
+        "STAT_CODE": "085Y008",
+        "P_STAT_CODE": "000Y076"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국거래소(051-662-2000)",
+        "CYCLE": "MM",
+        "STAT_NAME": "6.2.채권거래",
+        "STAT_CODE": "028Y022",
+        "P_STAT_CODE": "000Y028"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "6.3.주요 국공채 발행 및   잔액",
+        "STAT_CODE": "028Y007",
+        "P_STAT_CODE": "000Y028"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "6.4.재정",
+        "STAT_CODE": "000Y032",
+        "P_STAT_CODE": "000Y028"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "기획재정부(044-215-2114)",
+        "CYCLE": "MM",
+        "STAT_NAME": "6.4.1 통합재정수지",
+        "STAT_CODE": "028Y009",
+        "P_STAT_CODE": "000Y032"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "기획재정부(044-215-2114)",
+        "CYCLE": "YY",
+        "STAT_NAME": "6.4.2 조세징수액",
+        "STAT_CODE": "085Y050",
+        "P_STAT_CODE": "000Y032"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "7.물 가",
+        "STAT_CODE": "000Y020",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "7.1.생산자물가지수(2015=100)",
+        "STAT_CODE": "000Y221",
+        "P_STAT_CODE": "000Y020"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.1.1 생산자물가지수(기본분류)(2015=100)",
+        "STAT_CODE": "013Y202",
+        "P_STAT_CODE": "000Y221"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.1.2 생산자물가지수(특수분류)(2015=100)",
+        "STAT_CODE": "013Y203",
+        "P_STAT_CODE": "000Y221"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.1.3 생산자물가지수(품목별)(2015=100)",
+        "STAT_CODE": "013Y204",
+        "P_STAT_CODE": "000Y221"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.1.4 생산자물가지수-총지수(1910~1964)(2015=100)",
+        "STAT_CODE": "013Y208",
+        "P_STAT_CODE": "000Y221"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.2.국내공급물가지수(2015=100)",
+        "STAT_CODE": "017Y201",
+        "P_STAT_CODE": "000Y020"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.3.총산출물가지수(2015=100)",
+        "STAT_CODE": "017Y202",
+        "P_STAT_CODE": "000Y020"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "7.4. 소비자물가지수(2015=100)",
+        "STAT_CODE": "000Y125",
+        "P_STAT_CODE": "000Y020"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(02-2012-9114)",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.4.1 소비자물가지수(2015=100)(전국)",
+        "STAT_CODE": "021Y125",
+        "P_STAT_CODE": "000Y125"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(02-2012-9114)",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.4.2 소비자물가지수(2015=100)(전국,특수분류)",
+        "STAT_CODE": "021Y126",
+        "P_STAT_CODE": "000Y125"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "7.5.수출물가지수(2015=100)",
+        "STAT_CODE": "000Y319",
+        "P_STAT_CODE": "000Y020"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.5.1 수출물가지수(기본분류)(2015=100)",
+        "STAT_CODE": "019Y301",
+        "P_STAT_CODE": "000Y319"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.5.2 수출물가지수(특수분류)(2015=100)",
+        "STAT_CODE": "019Y302",
+        "P_STAT_CODE": "000Y319"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.5.3 수출물가지수(품목별)(2015=100)",
+        "STAT_CODE": "019Y303",
+        "P_STAT_CODE": "000Y319"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "7.6.수입물가지수(2015=100)",
+        "STAT_CODE": "000Y318",
+        "P_STAT_CODE": "000Y020"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.6.1 수입물가지수(기본분류)(2015=100)",
+        "STAT_CODE": "018Y301",
+        "P_STAT_CODE": "000Y318"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.6.2 수입물가지수(특수분류)(2015=100)",
+        "STAT_CODE": "018Y302",
+        "P_STAT_CODE": "000Y318"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.6.3 수입물가지수(품목별)(2015=100)",
+        "STAT_CODE": "018Y303",
+        "P_STAT_CODE": "000Y318"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.6.4 수입물가지수(용도별)(2015=100)",
+        "STAT_CODE": "018Y304",
+        "P_STAT_CODE": "000Y318"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "7.7.기타가격지수",
+        "STAT_CODE": "000Y120",
+        "P_STAT_CODE": "000Y020"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "KB국민은행(1588-9999)",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.7.1 주택매매가격지수(KB)",
+        "STAT_CODE": "085Y021",
+        "P_STAT_CODE": "000Y120"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "KB국민은행(1588-9999)",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.7.2 주택전세가격지수(KB)",
+        "STAT_CODE": "085Y022",
+        "P_STAT_CODE": "000Y120"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국부동산원(1644-2828)",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.7.3 지역별 지가변동률",
+        "STAT_CODE": "085Y023",
+        "P_STAT_CODE": "000Y120"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국부동산원(1644-2828)",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.7.4 유형별 주택매매가격지수",
+        "STAT_CODE": "085Y069",
+        "P_STAT_CODE": "000Y120"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국부동산원(1644-2828)",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.7.5 유형별 주택전세가격지수",
+        "STAT_CODE": "085Y070",
+        "P_STAT_CODE": "000Y120"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국부동산원(1644-2828)",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.7.6 유형별 주택월세통합가격지수",
+        "STAT_CODE": "085Y071",
+        "P_STAT_CODE": "000Y120"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국부동산원(1644-2828)",
+        "CYCLE": "MM",
+        "STAT_NAME": "7.7.7 아파트 실거래가격지수",
+        "STAT_CODE": "085Y064",
+        "P_STAT_CODE": "000Y120"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국부동산원(1644-2828)",
+        "CYCLE": "QQ",
+        "STAT_NAME": "7.7.8 상권별 오피스 임대가격지수",
+        "STAT_CODE": "085Y072",
+        "P_STAT_CODE": "000Y120"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국부동산원(1644-2828)",
+        "CYCLE": "QQ",
+        "STAT_NAME": "7.7.9 상권별 중대형 상가 임대가격지수",
+        "STAT_CODE": "085Y073",
+        "P_STAT_CODE": "000Y120"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.국제수지/외채/환율",
+        "STAT_CODE": "000Y011",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.1.국제수지",
+        "STAT_CODE": "000Y211",
+        "P_STAT_CODE": "000Y011"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "8.1.1 국제수지",
+        "STAT_CODE": "022Y013",
+        "P_STAT_CODE": "000Y211"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "8.1.2 계절변동조정 경상수지(경상수지 S.A.)",
+        "STAT_CODE": "022Y113",
+        "P_STAT_CODE": "000Y211"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "8.1.3 서비스무역세분류통계",
+        "STAT_CODE": "022Y014",
+        "P_STAT_CODE": "000Y211"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.1.4 지식재산권 무역수지",
+        "STAT_CODE": "000Y222",
+        "P_STAT_CODE": "000Y211"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.1.4.1 제10차 한국표준산업분류(2017~)",
+        "STAT_CODE": "000Y223",
+        "P_STAT_CODE": "000Y222"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.1.4.1.1 지식재산권 무역수지(유형별)",
+        "STAT_CODE": "022Y117",
+        "P_STAT_CODE": "000Y223"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.1.4.1.2 지식재산권 무역수지(기관형태별)",
+        "STAT_CODE": "022Y118",
+        "P_STAT_CODE": "000Y223"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.1.4.1.3 지식재산권 무역수지(산업별)",
+        "STAT_CODE": "022Y119",
+        "P_STAT_CODE": "000Y223"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.1.4.1.4 지식재산권 무역수지(국가별)",
+        "STAT_CODE": "022Y120",
+        "P_STAT_CODE": "000Y223"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.1.4.1.5 지식재산권 무역수지(유형별X기관형태별)",
+        "STAT_CODE": "022Y121",
+        "P_STAT_CODE": "000Y223"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.1.4.1.6 지식재산권 무역수지(유형별X산업별)",
+        "STAT_CODE": "022Y122",
+        "P_STAT_CODE": "000Y223"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.1.4.1.7 지식재산권 무역수지(유형별X국가별)",
+        "STAT_CODE": "022Y123",
+        "P_STAT_CODE": "000Y223"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.1.4.1.8 지식재산권 무역수지(기관형태별X산업별)",
+        "STAT_CODE": "022Y124",
+        "P_STAT_CODE": "000Y223"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.1.4.1.9 지식재산권 무역수지(기관형태별X국가별)",
+        "STAT_CODE": "022Y125",
+        "P_STAT_CODE": "000Y223"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.1.4.1.10 지식재산권 무역수지(산업별X국가별)",
+        "STAT_CODE": "022Y126",
+        "P_STAT_CODE": "000Y223"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.1.4.2 제9차 한국표준산업분류(2010~2020)",
+        "STAT_CODE": "000Y224",
+        "P_STAT_CODE": "000Y222"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.1.4.2.1 지식재산권 무역수지(유형별)",
+        "STAT_CODE": "022Y017",
+        "P_STAT_CODE": "000Y224"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.1.4.2.2 지식재산권 무역수지(기관형태별)",
+        "STAT_CODE": "022Y018",
+        "P_STAT_CODE": "000Y224"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.1.4.2.3 지식재산권 무역수지(산업별)",
+        "STAT_CODE": "022Y019",
+        "P_STAT_CODE": "000Y224"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.1.4.2.4 지식재산권 무역수지(국가별)",
+        "STAT_CODE": "022Y020",
+        "P_STAT_CODE": "000Y224"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.1.4.2.5 지식재산권 무역수지(유형별X기관형태별)",
+        "STAT_CODE": "022Y021",
+        "P_STAT_CODE": "000Y224"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.1.4.2.6 지식재산권 무역수지(유형별X산업별)",
+        "STAT_CODE": "022Y022",
+        "P_STAT_CODE": "000Y224"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.1.4.2.7 지식재산권 무역수지(유형별X국가별)",
+        "STAT_CODE": "022Y023",
+        "P_STAT_CODE": "000Y224"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.1.4.2.8 지식재산권 무역수지(기관형태별X산업별)",
+        "STAT_CODE": "022Y024",
+        "P_STAT_CODE": "000Y224"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.1.4.2.9 지식재산권 무역수지(기관형태별X국가별)",
+        "STAT_CODE": "022Y025",
+        "P_STAT_CODE": "000Y224"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.1.4.2.10 지식재산권 무역수지(산업별X국가별)",
+        "STAT_CODE": "022Y026",
+        "P_STAT_CODE": "000Y224"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.1.5 수출 결제통화",
+        "STAT_CODE": "000Y215",
+        "P_STAT_CODE": "000Y211"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.1.5.1 지역별 결제통화(수출)",
+        "STAT_CODE": "022Y007",
+        "P_STAT_CODE": "000Y215"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.1.5.2 국가별 결제통화(수출)",
+        "STAT_CODE": "022Y008",
+        "P_STAT_CODE": "000Y215"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.1.5.3 지역별,국가별 원화결제(수출)",
+        "STAT_CODE": "022Y009",
+        "P_STAT_CODE": "000Y215"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.1.6 수입 결제통화",
+        "STAT_CODE": "000Y216",
+        "P_STAT_CODE": "000Y211"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.1.6.1 지역별 결제통화(수입)",
+        "STAT_CODE": "022Y010",
+        "P_STAT_CODE": "000Y216"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.1.6.2 국가별 결제통화(수입)",
+        "STAT_CODE": "022Y011",
+        "P_STAT_CODE": "000Y216"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.1.6.3 지역별,국가별 원화결제(수입)",
+        "STAT_CODE": "022Y012",
+        "P_STAT_CODE": "000Y216"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.2.지역별 국제수지",
+        "STAT_CODE": "000Y073",
+        "P_STAT_CODE": "000Y011"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.2.1 지역별 경상수지",
+        "STAT_CODE": "022Y015",
+        "P_STAT_CODE": "000Y073"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.2.2 지역별 자본수지·금융계정",
+        "STAT_CODE": "022Y016",
+        "P_STAT_CODE": "000Y073"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.3.통관기준 수출입",
+        "STAT_CODE": "000Y014",
+        "P_STAT_CODE": "000Y011"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국무역협회(1566-5114)",
+        "CYCLE": "MM",
+        "STAT_NAME": "8.3.1 국별수출(관세청)",
+        "STAT_CODE": "023Y001",
+        "P_STAT_CODE": "000Y014"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국무역협회(1566-5114)",
+        "CYCLE": "MM",
+        "STAT_NAME": "8.3.2 국별수입(관세청)",
+        "STAT_CODE": "023Y002",
+        "P_STAT_CODE": "000Y014"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.4.무역지수 및 교역조건지수(2015=100)",
+        "STAT_CODE": "000Y044",
+        "P_STAT_CODE": "000Y011"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "8.4.1 수출금액지수",
+        "STAT_CODE": "099Y001",
+        "P_STAT_CODE": "000Y044"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "8.4.2 수출물량지수",
+        "STAT_CODE": "099Y002",
+        "P_STAT_CODE": "000Y044"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "8.4.3 수입금액지수",
+        "STAT_CODE": "099Y003",
+        "P_STAT_CODE": "000Y044"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "8.4.4 수입물량지수",
+        "STAT_CODE": "099Y004",
+        "P_STAT_CODE": "000Y044"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "8.4.5 교역조건지수",
+        "STAT_CODE": "099Y005",
+        "P_STAT_CODE": "000Y044"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "8.5.외환보유액",
+        "STAT_CODE": "038Y001",
+        "P_STAT_CODE": "000Y011"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.6.국제투자대조표(IIP)",
+        "STAT_CODE": "000Y311",
+        "P_STAT_CODE": "000Y011"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.6.1 국제투자대조표(IIP)",
+        "STAT_CODE": "025Y009",
+        "P_STAT_CODE": "000Y311"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.6.2 지역별 국제투자대조표",
+        "STAT_CODE": "025Y010",
+        "P_STAT_CODE": "000Y311"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "8.6.3 통화별 국제투자대조표",
+        "STAT_CODE": "025Y011",
+        "P_STAT_CODE": "000Y311"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.7.대외채무/채권",
+        "STAT_CODE": "000Y013",
+        "P_STAT_CODE": "000Y011"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.7.1 대외채무",
+        "STAT_CODE": "039Y108",
+        "P_STAT_CODE": "000Y013"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.7.2 대외채권",
+        "STAT_CODE": "039Y109",
+        "P_STAT_CODE": "000Y013"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.7.3 순대외채권",
+        "STAT_CODE": "039Y110",
+        "P_STAT_CODE": "000Y013"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.8.환율",
+        "STAT_CODE": "000Y033",
+        "P_STAT_CODE": "000Y011"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.8.1 일일환율",
+        "STAT_CODE": "000Y034",
+        "P_STAT_CODE": "000Y033"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "DD",
+        "STAT_NAME": "8.8.1.1 주요국통화의 대원화 환율",
+        "STAT_CODE": "036Y001",
+        "P_STAT_CODE": "000Y034"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "DD",
+        "STAT_NAME": "8.8.1.2 주요국통화의 대미달러 환율",
+        "STAT_CODE": "036Y002",
+        "P_STAT_CODE": "000Y034"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "DD",
+        "STAT_NAME": "8.8.1.3 원화의 대미달러, 원화의 대위안, 대엔 환율",
+        "STAT_CODE": "036Y003",
+        "P_STAT_CODE": "000Y034"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.8.2 평균환율, 기말환율",
+        "STAT_CODE": "000Y035",
+        "P_STAT_CODE": "000Y033"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "8.8.2.1 주요국통화의 대원화 환율 통계자료",
+        "STAT_CODE": "036Y004",
+        "P_STAT_CODE": "000Y035"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "8.8.2.2 주요국통화의 대미달러 환율 통계자료",
+        "STAT_CODE": "036Y005",
+        "P_STAT_CODE": "000Y035"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "8.8.2.3 원화의 대미달러, 원화의 대위안, 대엔 환율",
+        "STAT_CODE": "036Y006",
+        "P_STAT_CODE": "000Y035"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "8.9.해외투자/차관",
+        "STAT_CODE": "000Y115",
+        "P_STAT_CODE": "000Y011"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국수출입은행(02-6255-5712)",
+        "CYCLE": "MM",
+        "STAT_NAME": "8.9.1 해외직접투자(신고기준)",
+        "STAT_CODE": "085Y013",
+        "P_STAT_CODE": "000Y115"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "산업통상자원부(1577-0900)",
+        "CYCLE": "QQ",
+        "STAT_NAME": "8.9.2 외국인투자(신고기준)",
+        "STAT_CODE": "085Y014",
+        "P_STAT_CODE": "000Y115"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "9.기업경기/소비자동향/ 경제심리",
+        "STAT_CODE": "000Y072",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "9.1.기업경기실사지수",
+        "STAT_CODE": "000Y101",
+        "P_STAT_CODE": "000Y072"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "9.1.1 기업경기실사지수(한국은행,전국,전기간)",
+        "STAT_CODE": "000Y104",
+        "P_STAT_CODE": "000Y101"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.1.1.1 전국실적",
+        "STAT_CODE": "041Y013",
+        "P_STAT_CODE": "000Y104"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.1.1.2 전국전망",
+        "STAT_CODE": "041Y014",
+        "P_STAT_CODE": "000Y104"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.1.1.3 (매출액가중)전국실적",
+        "STAT_CODE": "041Y015",
+        "P_STAT_CODE": "000Y104"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.1.1.4 (매출액가중)전국전망",
+        "STAT_CODE": "041Y016",
+        "P_STAT_CODE": "000Y104"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.1.1.5 (구)전국실적(~2012.6)",
+        "STAT_CODE": "041Y017",
+        "P_STAT_CODE": "000Y104"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.1.1.6 (구)전국전망(~2012.7)",
+        "STAT_CODE": "041Y018",
+        "P_STAT_CODE": "000Y104"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "9.1.2 업종별 기업경기실사지수(한국은행, 전국)( ~2009.8)",
+        "STAT_CODE": "000Y126",
+        "P_STAT_CODE": "000Y101"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국은행",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.1.2.1 전국실적(~2009.7)",
+        "STAT_CODE": "041Y001",
+        "P_STAT_CODE": "000Y126"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국은행",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.1.2.2 전국전망(~2009.8)",
+        "STAT_CODE": "041Y002",
+        "P_STAT_CODE": "000Y126"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "9.1.3 업종별 기업경기실사지수(한국은행, 전국)(2009.8 ~)",
+        "STAT_CODE": "000Y102",
+        "P_STAT_CODE": "000Y101"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국은행",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.1.3.1 전국실적(2009.8~)",
+        "STAT_CODE": "041Y007",
+        "P_STAT_CODE": "000Y102"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국은행",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.1.3.2 전국전망(2009.9~)",
+        "STAT_CODE": "041Y008",
+        "P_STAT_CODE": "000Y102"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "9.1.4 기업경기실사지수(지역)",
+        "STAT_CODE": "000Y103",
+        "P_STAT_CODE": "000Y101"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.1.4.1 실적(지역본부)(2013.1~)",
+        "STAT_CODE": "041Y019",
+        "P_STAT_CODE": "000Y103"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.1.4.2 전망(지역본부)(2013.2~)",
+        "STAT_CODE": "041Y020",
+        "P_STAT_CODE": "000Y103"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.1.4.3 실적(지역본부)(~2012.12)",
+        "STAT_CODE": "041Y011",
+        "P_STAT_CODE": "000Y103"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.1.4.4 전망(지역본부)(~2013.1)",
+        "STAT_CODE": "041Y012",
+        "P_STAT_CODE": "000Y103"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "9.2.소비자동향조사",
+        "STAT_CODE": "000Y040",
+        "P_STAT_CODE": "000Y072"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국은행",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.2.1 소비자동향조사(한국은행, 전국)(월)(2008년9월~)",
+        "STAT_CODE": "040Y002",
+        "P_STAT_CODE": "000Y040"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국은행",
+        "CYCLE": "QQ",
+        "STAT_NAME": "9.2.2 소비자동향조사(한국은행, 전국)(분기)(1995년 3분기 ~2008년 2분기)",
+        "STAT_CODE": "040Y001",
+        "P_STAT_CODE": "000Y040"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.2.3 기대인플레이션율 (한국은행, 전국)(월)",
+        "STAT_CODE": "040Y003",
+        "P_STAT_CODE": "000Y040"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.2.4 소비자동향조사(한국은행,지역)(월)",
+        "STAT_CODE": "040Y004",
+        "P_STAT_CODE": "000Y040"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "9.3. 경제심리지수",
+        "STAT_CODE": "042Y001",
+        "P_STAT_CODE": "000Y072"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.국민계정(2015년 기준년)",
+        "STAT_CODE": "000Y551",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.1. 주요지표",
+        "STAT_CODE": "000Y552",
+        "P_STAT_CODE": "000Y551"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.1.1. 연간지표",
+        "STAT_CODE": "111Y002",
+        "P_STAT_CODE": "000Y552"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.1.2. 분기지표",
+        "STAT_CODE": "111Y055",
+        "P_STAT_CODE": "000Y552"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.2. 경제활동별, 지출항목별 규모",
+        "STAT_CODE": "000Y553",
+        "P_STAT_CODE": "000Y551"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.2.1. 경제활동별 GDP 및 GNI",
+        "STAT_CODE": "000Y554",
+        "P_STAT_CODE": "000Y553"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.2.1.1. 경제활동별 GDP 및 GNI(계절조정, 명목, 분기)",
+        "STAT_CODE": "111Y012",
+        "P_STAT_CODE": "000Y554"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.2.1.2. 경제활동별 GDP 및 GNI(계절조정, 실질, 분기)",
+        "STAT_CODE": "111Y013",
+        "P_STAT_CODE": "000Y554"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.2.1.3. 경제활동별 GDP 및 GNI(원계열, 명목, 분기 및 연간)",
+        "STAT_CODE": "111Y010",
+        "P_STAT_CODE": "000Y554"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.2.1.4. 경제활동별 GDP 및 GNI(원계열, 실질, 분기 및 연간)",
+        "STAT_CODE": "111Y011",
+        "P_STAT_CODE": "000Y554"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.2.2. 국내총생산에 대한 지출",
+        "STAT_CODE": "000Y555",
+        "P_STAT_CODE": "000Y553"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.2.2.1. 국내총생산에 대한 지출(계절조정, 명목, 분기)",
+        "STAT_CODE": "111Y016",
+        "P_STAT_CODE": "000Y555"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.2.2.2. 국내총생산에 대한 지출(계절조정, 실질, 분기)",
+        "STAT_CODE": "111Y017",
+        "P_STAT_CODE": "000Y555"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.2.2.3. 국내총생산에 대한 지출(원계열, 명목, 분기 및 연간)",
+        "STAT_CODE": "111Y014",
+        "P_STAT_CODE": "000Y555"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.2.2.4. 국내총생산에 대한 지출(원계열, 실질, 분기 및 연간)",
+        "STAT_CODE": "111Y015",
+        "P_STAT_CODE": "000Y555"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.2.3. GDP 디플레이터 ",
+        "STAT_CODE": "000Y556",
+        "P_STAT_CODE": "000Y553"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.2.3.1. 경제활동별 국내총생산 디플레이터(분기 및 연간)",
+        "STAT_CODE": "111Y046",
+        "P_STAT_CODE": "000Y556"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.2.3.2. 국내총생산에 대한 지출 디플레이터(분기 및 연간)",
+        "STAT_CODE": "111Y047",
+        "P_STAT_CODE": "000Y556"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.3. 생산 및 지출, 소득 및 처분, 자본거래, 국외거래(종합계정)",
+        "STAT_CODE": "000Y557",
+        "P_STAT_CODE": "000Y551"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.3.1. 국내총생산과 지출",
+        "STAT_CODE": "000Y558",
+        "P_STAT_CODE": "000Y557"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.3.1.1. 국내총생산과 지출(명목, 연간)",
+        "STAT_CODE": "111Y003",
+        "P_STAT_CODE": "000Y558"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.3.1.2. 경제활동별 국내총부가가치와 요소소득(명목, 연간)",
+        "STAT_CODE": "111Y063",
+        "P_STAT_CODE": "000Y558"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.3.2. 국민처분가능소득과 처분",
+        "STAT_CODE": "000Y559",
+        "P_STAT_CODE": "000Y557"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.3.2.1. 국민처분가능소득과 처분(명목, 연간)",
+        "STAT_CODE": "111Y004",
+        "P_STAT_CODE": "000Y559"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.3.2.2. 국민소득과 부문별 국민처분가능소득(명목, 연간)",
+        "STAT_CODE": "111Y019",
+        "P_STAT_CODE": "000Y559"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.3.3. 자본거래",
+        "STAT_CODE": "000Y560",
+        "P_STAT_CODE": "000Y557"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.3.3.1. 자본거래(명목, 연간)",
+        "STAT_CODE": "111Y005",
+        "P_STAT_CODE": "000Y560"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.3.4. 국외거래",
+        "STAT_CODE": "000Y561",
+        "P_STAT_CODE": "000Y557"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.3.4.1. 경상거래(명목, 연간)",
+        "STAT_CODE": "111Y034",
+        "P_STAT_CODE": "000Y561"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.3.4.2. 자본거래(명목, 연간)",
+        "STAT_CODE": "111Y036",
+        "P_STAT_CODE": "000Y561"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.4. 제도부문별 생산, 소득, 자본계정",
+        "STAT_CODE": "000Y563",
+        "P_STAT_CODE": "000Y551"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.4.1. 제도부문별 생산계정(명목, 연간)",
+        "STAT_CODE": "111Y060",
+        "P_STAT_CODE": "000Y563"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.4.2. 제도부문별 소득계정(명목, 연간)",
+        "STAT_CODE": "111Y061",
+        "P_STAT_CODE": "000Y563"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.4.3. 제도부문별 자본계정(명목, 연간)",
+        "STAT_CODE": "111Y062",
+        "P_STAT_CODE": "000Y563"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.5. GDP에 대한 성장기여도",
+        "STAT_CODE": "000Y564",
+        "P_STAT_CODE": "000Y551"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.5.1. 경제활동별 성장기여도(계절조정, 실질, 분기)",
+        "STAT_CODE": "111Y071",
+        "P_STAT_CODE": "000Y564"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.5.2. 경제활동별 성장기여도(원계열, 실질, 분기 및 연간)",
+        "STAT_CODE": "111Y072",
+        "P_STAT_CODE": "000Y564"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.5.3. 지출항목별 성장기여도(계절조정, 실질, 분기)",
+        "STAT_CODE": "111Y073",
+        "P_STAT_CODE": "000Y564"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.5.4. 지출항목별 성장기여도(원계열, 실질, 분기 및 연간)",
+        "STAT_CODE": "111Y074",
+        "P_STAT_CODE": "000Y564"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.6. 총자본형성",
+        "STAT_CODE": "000Y565",
+        "P_STAT_CODE": "000Y551"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.6.1. 자본재형태별 총자본형성",
+        "STAT_CODE": "000Y566",
+        "P_STAT_CODE": "000Y565"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.6.1.1. 자본재형태별 총자본형성(계절조정, 명목, 분기)",
+        "STAT_CODE": "111Y022",
+        "P_STAT_CODE": "000Y566"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.6.1.2. 자본재형태별 총자본형성(계절조정, 실질, 분기)",
+        "STAT_CODE": "111Y023",
+        "P_STAT_CODE": "000Y566"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.6.1.3. 자본재형태별 총자본형성(원계열, 명목, 분기 및 연간)",
+        "STAT_CODE": "111Y020",
+        "P_STAT_CODE": "000Y566"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.6.1.4. 자본재형태별 총자본형성(원계열, 실질, 분기 및 연간)",
+        "STAT_CODE": "111Y021",
+        "P_STAT_CODE": "000Y566"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.6.2. 주체별 총자본형성",
+        "STAT_CODE": "000Y568",
+        "P_STAT_CODE": "000Y565"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.6.2.1. 주체별 총자본형성(원계열, 명목, 분기 및 연간)",
+        "STAT_CODE": "111Y056",
+        "P_STAT_CODE": "000Y568"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.6.2.2. 주체별 총자본형성(원계열, 실질, 분기 및 연간)",
+        "STAT_CODE": "111Y057",
+        "P_STAT_CODE": "000Y568"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.6.2.3. 주체별 총고정자본형성(계절조정, 명목, 분기)",
+        "STAT_CODE": "111Y080",
+        "P_STAT_CODE": "000Y568"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.6.2.4. 주체별 총고정자본형성(계절조정, 실질, 분기)",
+        "STAT_CODE": "111Y081",
+        "P_STAT_CODE": "000Y568"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.6.3. 경제활동별 총고정자본형성",
+        "STAT_CODE": "000Y567",
+        "P_STAT_CODE": "000Y565"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.6.3.1 경제활동별 총고정자본형성(명목, 연간)",
+        "STAT_CODE": "111Y038",
+        "P_STAT_CODE": "000Y567"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.6.3.2 경제활동별 총고정자본형성(실질, 연간)",
+        "STAT_CODE": "111Y039",
+        "P_STAT_CODE": "000Y567"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.6.3.3 경제활동별 자본재형태별 총고정자본형성(명목, 연간)",
+        "STAT_CODE": "111Y082",
+        "P_STAT_CODE": "000Y567"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.6.4. 경제활동별 설비투자",
+        "STAT_CODE": "000Y569",
+        "P_STAT_CODE": "000Y565"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.6.4.1 경제활동별 설비투자(명목, 연간)",
+        "STAT_CODE": "111Y069",
+        "P_STAT_CODE": "000Y569"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.6.4.2 경제활동별 설비투자(실질 ¹), 연간)",
+        "STAT_CODE": "111Y070",
+        "P_STAT_CODE": "000Y569"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.7. 최종소비지출",
+        "STAT_CODE": "000Y570",
+        "P_STAT_CODE": "000Y551"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.7.1. 가계의 최종소비지출",
+        "STAT_CODE": "000Y571",
+        "P_STAT_CODE": "000Y570"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.7.1.1. 가계의 목적별 최종소비지출",
+        "STAT_CODE": "000Y572",
+        "P_STAT_CODE": "000Y571"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.7.1.1.1. 가계의 목적별 최종소비지출(계절조정, 명목, 분기)",
+        "STAT_CODE": "111Y026",
+        "P_STAT_CODE": "000Y572"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.7.1.1.2. 가계의 목적별 최종소비지출(계절조정, 실질, 분기)",
+        "STAT_CODE": "111Y027",
+        "P_STAT_CODE": "000Y572"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.7.1.1.3. 가계의 목적별 최종소비지출(원계열, 명목, 분기 및 연간)",
+        "STAT_CODE": "111Y024",
+        "P_STAT_CODE": "000Y572"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.7.1.1.4. 가계의 목적별 최종소비지출(원계열, 실질, 분기 및 연간)",
+        "STAT_CODE": "111Y025",
+        "P_STAT_CODE": "000Y572"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.7.1.2. 가계의 형태별 최종소비지출",
+        "STAT_CODE": "000Y573",
+        "P_STAT_CODE": "000Y571"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.7.1.2.1. 가계의 형태별 최종소비지출(계절조정, 명목, 분기)",
+        "STAT_CODE": "111Y051",
+        "P_STAT_CODE": "000Y573"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.7.1.2.2. 가계의 형태별 최종소비지출(계절조정, 실질, 분기)",
+        "STAT_CODE": "111Y052",
+        "P_STAT_CODE": "000Y573"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.7.1.2.3. 가계의 형태별 최종소비지출(원계열, 명목, 분기 및 연간)",
+        "STAT_CODE": "111Y028",
+        "P_STAT_CODE": "000Y573"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.7.1.2.4. 가계의 형태별 최종소비지출(원계열, 실질, 분기 및 연간)",
+        "STAT_CODE": "111Y029",
+        "P_STAT_CODE": "000Y573"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.7.2. 가계에 봉사하는 비영리단체의 최종소비지출 및 투입·산출",
+        "STAT_CODE": "000Y574",
+        "P_STAT_CODE": "000Y570"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.7.2.1. 가계에 봉사하는 비영리단체의 목적별 최종소비지출",
+        "STAT_CODE": "000Y575",
+        "P_STAT_CODE": "000Y574"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.7.2.1.1 가계에 봉사하는 비영리단체의 목적별 최종소비지출(원계열, 명목, 분기 및 연간)",
+        "STAT_CODE": "111Y030",
+        "P_STAT_CODE": "000Y575"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.7.2.1.2 가계에 봉사하는 비영리단체의 목적별 최종소비지출(원계열, 실질, 분기 및 연간)",
+        "STAT_CODE": "111Y031",
+        "P_STAT_CODE": "000Y575"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.7.2.2. 가계에 봉사하는 비영리단체의 목적별 투입 및 산출(명목, 연간)",
+        "STAT_CODE": "111Y064",
+        "P_STAT_CODE": "000Y574"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.8. 일반정부 및 공공부문계정",
+        "STAT_CODE": "000Y576",
+        "P_STAT_CODE": "000Y551"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.8.1. 일반정부의 부문별 기능별 최종소비지출(명목, 연간)",
+        "STAT_CODE": "111Y065",
+        "P_STAT_CODE": "000Y576"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.8.2. 일반정부의 부문별 기능별 총지출 (명목, 연간)",
+        "STAT_CODE": "111Y066",
+        "P_STAT_CODE": "000Y576"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.8.3. 일반정부의 부문별 총수입,총지출,저축투자차액 (명목, 연간)",
+        "STAT_CODE": "111Y068",
+        "P_STAT_CODE": "000Y576"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.9. 총저축과 총투자",
+        "STAT_CODE": "000Y577",
+        "P_STAT_CODE": "000Y551"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.9.1. 총저축과 총투자(계절조정, 명목, 분기)",
+        "STAT_CODE": "111Y053",
+        "P_STAT_CODE": "000Y577"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.9.2. 총저축과 총투자(원계열, 명목, 분기 및 연간)",
+        "STAT_CODE": "111Y037",
+        "P_STAT_CODE": "000Y577"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "10.10. 정보통신산업(실질)",
+        "STAT_CODE": "000Y578",
+        "P_STAT_CODE": "000Y551"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.10.1. 정보통신산업(계절조정, 실질, 분기)",
+        "STAT_CODE": "111Y054",
+        "P_STAT_CODE": "000Y578"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "10.10.2. 정보통신산업(원계열, 실질, 분기 및 연간)",
+        "STAT_CODE": "111Y048",
+        "P_STAT_CODE": "000Y578"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "10.8.4. 공공부문의 부문별 총수입,총지출,저축투자차액 (명목, 연간)",
+        "STAT_CODE": "111Y067",
+        "P_STAT_CODE": "000Y576"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "11.자금순환",
+        "STAT_CODE": "000Y010",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "11.1.2008 SNA 기준",
+        "STAT_CODE": "012Y000",
+        "P_STAT_CODE": "000Y010"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "11.1.1 금융거래표(2009~)",
+        "STAT_CODE": "012Y501",
+        "P_STAT_CODE": "012Y000"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "11.1.2 금융자산부채잔액표(2008~)",
+        "STAT_CODE": "012Y502",
+        "P_STAT_CODE": "012Y000"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "11.2.1993 SNA 기준(2002~2013)",
+        "STAT_CODE": "012Y200",
+        "P_STAT_CODE": "000Y010"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "11.2.1 금융거래표(2003~2013)",
+        "STAT_CODE": "012Y101",
+        "P_STAT_CODE": "012Y200"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "11.2.2 금융자산부채잔액표(2002~)",
+        "STAT_CODE": "012Y102",
+        "P_STAT_CODE": "012Y200"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "11.3.1968 SNA 기준 (1975~2005)",
+        "STAT_CODE": "012Y100",
+        "P_STAT_CODE": "000Y010"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "11.3.1 금융거래표",
+        "STAT_CODE": "012Y001",
+        "P_STAT_CODE": "012Y100"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "11.3.2 금융자산부채잔액표",
+        "STAT_CODE": "012Y002",
+        "P_STAT_CODE": "012Y100"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "11.4.1968 SNA 기준 (1969~1974,연간)",
+        "STAT_CODE": "012Y400",
+        "P_STAT_CODE": "000Y010"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "11.4.1 금융거래표(1970~1974)",
+        "STAT_CODE": "012Y301",
+        "P_STAT_CODE": "012Y400"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "11.4.2 금융자산부채잔액표(1969~1974)",
+        "STAT_CODE": "012Y302",
+        "P_STAT_CODE": "012Y400"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "11.5.1953 SNA 기준 (1962~1970,연간)",
+        "STAT_CODE": "012Y300",
+        "P_STAT_CODE": "000Y010"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "11.5.1 금융거래표(1963~1970)",
+        "STAT_CODE": "012Y201",
+        "P_STAT_CODE": "012Y300"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "11.5.2 금융자산부채잔액표(1962~1970)",
+        "STAT_CODE": "012Y202",
+        "P_STAT_CODE": "012Y300"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.기업경영분석",
+        "STAT_CODE": "000Y127",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.1.기업경영분석지표",
+        "STAT_CODE": "000Y152",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.1.1 기업경영분석지표(2009~,전수조사)",
+        "STAT_CODE": "027Y431",
+        "P_STAT_CODE": "000Y152"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.1.2 기업경영분석지표(2007~2010)",
+        "STAT_CODE": "027Y331",
+        "P_STAT_CODE": "000Y152"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.1.3 기업경영분석지표(~2007)",
+        "STAT_CODE": "027Y131",
+        "P_STAT_CODE": "000Y152"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.2.성장성에 관한지표",
+        "STAT_CODE": "000Y142",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.2.1 성장성에 관한 지표(제10차한국표준산업분류, 2009~, 전수조사)",
+        "STAT_CODE": "027Y616",
+        "P_STAT_CODE": "000Y142"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.2.2 성장성에 관한 지표(중소기업기본법, 2015~2016, 전수조사)",
+        "STAT_CODE": "027Y516",
+        "P_STAT_CODE": "000Y142"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.2.3 성장성에 관한 지표(조세특례제한법, 2009~2014, 전수조사)",
+        "STAT_CODE": "027Y416",
+        "P_STAT_CODE": "000Y142"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.2.4 성장성에 관한 지표(2007~2010, 표본조사)",
+        "STAT_CODE": "027Y316",
+        "P_STAT_CODE": "000Y142"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.2.5 성장성에 관한 지표(1998~2007, 표본조사)",
+        "STAT_CODE": "027Y116",
+        "P_STAT_CODE": "000Y142"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.2.6 성장성에 관한 지표(1990~1997, 표본조사)",
+        "STAT_CODE": "027Y117",
+        "P_STAT_CODE": "000Y142"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.3.손익의관계비율",
+        "STAT_CODE": "000Y143",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.3.1 손익의 관계비율(제10차한국표준산업분류, 2009~, 전수조사)",
+        "STAT_CODE": "027Y618",
+        "P_STAT_CODE": "000Y143"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.3.2 손익의 관계비율(중소기업기본법, 2015~2016, 전수조사)",
+        "STAT_CODE": "027Y518",
+        "P_STAT_CODE": "000Y143"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.3.3 손익의 관계비율(조세특례제한법, 2009~2014, 전수조사)",
+        "STAT_CODE": "027Y418",
+        "P_STAT_CODE": "000Y143"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.3.4 손익의 관계비율(2007~2010, 표본조사)",
+        "STAT_CODE": "027Y318",
+        "P_STAT_CODE": "000Y143"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.3.5 손익의 관계비율(1998~2007, 표본조사)",
+        "STAT_CODE": "027Y118",
+        "P_STAT_CODE": "000Y143"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.3.6 손익의 관계비율(1990~1997, 표본조사)",
+        "STAT_CODE": "027Y119",
+        "P_STAT_CODE": "000Y143"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.4.자산·자본의관계비율",
+        "STAT_CODE": "000Y144",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.4.1 자산·자본의 관계비율(제10차한국표준산업분류, 2009~, 전수조사)",
+        "STAT_CODE": "027Y620",
+        "P_STAT_CODE": "000Y144"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.4.2 자산·자본의 관계비율(중소기업기본법, 2015~2016, 전수조사)",
+        "STAT_CODE": "027Y520",
+        "P_STAT_CODE": "000Y144"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.4.3 자산·자본의 관계비율(조세특례제한법, 2009~2014, 전수조사)",
+        "STAT_CODE": "027Y420",
+        "P_STAT_CODE": "000Y144"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.4.4 자산·자본의 관계비율(2007~2010, 표본조사)",
+        "STAT_CODE": "027Y320",
+        "P_STAT_CODE": "000Y144"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.4.5 자산·자본의 관계비율(1998~2007, 표본조사)",
+        "STAT_CODE": "027Y120",
+        "P_STAT_CODE": "000Y144"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.4.6 자산·자본의 관계비율(1990~1997, 표본조사)",
+        "STAT_CODE": "027Y121",
+        "P_STAT_CODE": "000Y144"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.5.자산·자본의회전율",
+        "STAT_CODE": "000Y145",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.5.1 자산·자본의 회전율(제10차한국표준산업분류, 2009~, 전수조사)",
+        "STAT_CODE": "027Y622",
+        "P_STAT_CODE": "000Y145"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.5.2 자산·자본의 회전율(중소기업기본법, 2015~2016, 전수조사)",
+        "STAT_CODE": "027Y522",
+        "P_STAT_CODE": "000Y145"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.5.3 자산·자본의 회전율(조세특례제한법, 2009~2014, 전수조사)",
+        "STAT_CODE": "027Y422",
+        "P_STAT_CODE": "000Y145"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.5.4 자산·자본의 회전율(2007~2010, 표본조사)",
+        "STAT_CODE": "027Y322",
+        "P_STAT_CODE": "000Y145"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.5.5 자산·자본의 회전율(1998~2007, 표본조사)",
+        "STAT_CODE": "027Y122",
+        "P_STAT_CODE": "000Y145"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.5.6 자산·자본의 회전율(1990~1997, 표본조사)",
+        "STAT_CODE": "027Y123",
+        "P_STAT_CODE": "000Y145"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.6.생산성에관한지표",
+        "STAT_CODE": "000Y146",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.6.1 생산성에 관한 지표(제10차한국표준산업분류, 2009~, 전수조사)",
+        "STAT_CODE": "027Y624",
+        "P_STAT_CODE": "000Y146"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.6.2 생산성에 관한 지표(중소기업기본법, 2015~2016, 전수조사)",
+        "STAT_CODE": "027Y524",
+        "P_STAT_CODE": "000Y146"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.6.3 생산성에 관한 지표(조세특례제한법, 2009~2014, 전수조사)",
+        "STAT_CODE": "027Y424",
+        "P_STAT_CODE": "000Y146"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.6.4 생산성에 관한 지표(2007~2010, 표본조사)",
+        "STAT_CODE": "027Y324",
+        "P_STAT_CODE": "000Y146"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.6.5 생산성에 관한 지표(2002~2007, 표본조사)",
+        "STAT_CODE": "027Y124",
+        "P_STAT_CODE": "000Y146"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.6.6 생산성에 관한 지표(1998~2006, 표본조사)",
+        "STAT_CODE": "027Y224",
+        "P_STAT_CODE": "000Y146"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.6.7 생산성에 관한 지표(1990~1997, 표본조사)",
+        "STAT_CODE": "027Y125",
+        "P_STAT_CODE": "000Y146"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.7.부가가치의 구성",
+        "STAT_CODE": "000Y147",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.7.1 부가가치의 구성(제10차한국표준산업분류, 2009~, 전수조사)",
+        "STAT_CODE": "027Y626",
+        "P_STAT_CODE": "000Y147"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.7.2 부가가치의 구성(중소기업기본법, 2015~2016, 전수조사)",
+        "STAT_CODE": "027Y526",
+        "P_STAT_CODE": "000Y147"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.7.3 부가가치의 구성(조세특례제한법, 2009~2014, 전수조사)",
+        "STAT_CODE": "027Y426",
+        "P_STAT_CODE": "000Y147"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.7.4 부가가치의 구성(2007~2010, 표본조사)",
+        "STAT_CODE": "027Y326",
+        "P_STAT_CODE": "000Y147"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.7.5 부가가치의 구성(2002~2007, 표본조사)",
+        "STAT_CODE": "027Y126",
+        "P_STAT_CODE": "000Y147"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.7.6 부가가치의 구성(1998~2006, 표본조사)",
+        "STAT_CODE": "027Y226",
+        "P_STAT_CODE": "000Y147"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.7.7 부가가치의 구성(1990~1997, 표본조사)",
+        "STAT_CODE": "027Y127",
+        "P_STAT_CODE": "000Y147"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.8.재무상태표(대차대조표)",
+        "STAT_CODE": "000Y138",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.8.1 재무상태표(대차대조표)(제10차한국표준산업분류, 2009~, 전수조사)",
+        "STAT_CODE": "027Y601",
+        "P_STAT_CODE": "000Y138"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.8.2 재무상태표(대차대조표)(중소기업기본법, 2015~2016, 전수조사)",
+        "STAT_CODE": "027Y501",
+        "P_STAT_CODE": "000Y138"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.8.3 재무상태표(대차대조표)(조세특례제한법, 2009~2014, 전수조사)",
+        "STAT_CODE": "027Y401",
+        "P_STAT_CODE": "000Y138"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.8.4 재무상태표(대차대조표)(2008~2010, 표본조사)",
+        "STAT_CODE": "027Y301",
+        "P_STAT_CODE": "000Y138"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.8.5 재무상태표(대차대조표)(2000~2007, 표본조사)",
+        "STAT_CODE": "027Y101",
+        "P_STAT_CODE": "000Y138"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.8.6 재무상태표(대차대조표)(1999, 표본조사)",
+        "STAT_CODE": "027Y102",
+        "P_STAT_CODE": "000Y138"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.8.7 재무상태표(대차대조표)(1997~1998, 표본조사)",
+        "STAT_CODE": "027Y103",
+        "P_STAT_CODE": "000Y138"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.8.8 재무상태표(대차대조표)(1990~1996, 표본조사)",
+        "STAT_CODE": "027Y104",
+        "P_STAT_CODE": "000Y138"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.9.손익계산서",
+        "STAT_CODE": "000Y139",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.9.1 손익계산서(제10차한국표준산업분류, 2009~, 전수조사)",
+        "STAT_CODE": "027Y605",
+        "P_STAT_CODE": "000Y139"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.9.2 손익계산서(중소기업기본법, 2015~2016, 전수조사)",
+        "STAT_CODE": "027Y505",
+        "P_STAT_CODE": "000Y139"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.9.3 손익계산서(조세특례제한법, 2009~2014, 전수조사)",
+        "STAT_CODE": "027Y405",
+        "P_STAT_CODE": "000Y139"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.9.4 손익계산서(2008~2010, 표본조사)",
+        "STAT_CODE": "027Y305",
+        "P_STAT_CODE": "000Y139"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.9.5 손익계산서(2000~2007, 표본조사)",
+        "STAT_CODE": "027Y105",
+        "P_STAT_CODE": "000Y139"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.9.6 손익계산서(1999, 표본조사)",
+        "STAT_CODE": "027Y106",
+        "P_STAT_CODE": "000Y139"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.9.7 손익계산서(1997~1998, 표본조사)",
+        "STAT_CODE": "027Y107",
+        "P_STAT_CODE": "000Y139"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.9.8 손익계산서(1990~1996, 표본조사)",
+        "STAT_CODE": "027Y108",
+        "P_STAT_CODE": "000Y139"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.10.제조원가명세서",
+        "STAT_CODE": "000Y140",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.10.1 제조원가명세서(제10차한국표준산업분류, 2009~, 전수조사)",
+        "STAT_CODE": "027Y609",
+        "P_STAT_CODE": "000Y140"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.10.2 제조원가명세서(중소기업기본법, 2015~2016, 전수조사)",
+        "STAT_CODE": "027Y509",
+        "P_STAT_CODE": "000Y140"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.10.3 제조원가명세서(조세특례제한법, 2009~2014, 전수조사)",
+        "STAT_CODE": "027Y409",
+        "P_STAT_CODE": "000Y140"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.10.4 제조원가명세서(2007~2010, 표본조사)",
+        "STAT_CODE": "027Y309",
+        "P_STAT_CODE": "000Y140"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.10.5 제조원가명세서(2000~2007, 표본조사)",
+        "STAT_CODE": "027Y109",
+        "P_STAT_CODE": "000Y140"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.10.6 제조원가명세서(1990~1999, 표본조사)",
+        "STAT_CODE": "027Y110",
+        "P_STAT_CODE": "000Y140"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.11.이익잉여금   처분계산서",
+        "STAT_CODE": "000Y141",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.11.1 이익잉여금처분계산서(제10차한국표준산업분류, 2009~, 전수조사)",
+        "STAT_CODE": "027Y611",
+        "P_STAT_CODE": "000Y141"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.11.2 이익잉여금처분계산서(중소기업기본법, 2015~2016, 전수조사)",
+        "STAT_CODE": "027Y511",
+        "P_STAT_CODE": "000Y141"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.11.3 이익잉여금처분계산서(조세특례제한법, 2009~2014, 전수조사)",
+        "STAT_CODE": "027Y411",
+        "P_STAT_CODE": "000Y141"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.11.4 이익잉여금처분계산서(2007~2010, 표본조사)",
+        "STAT_CODE": "027Y311",
+        "P_STAT_CODE": "000Y141"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.11.5 이익잉여금처분계산서(2000~2007, 표본조사)",
+        "STAT_CODE": "027Y111",
+        "P_STAT_CODE": "000Y141"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.11.6 이익잉여금처분계산서(1990~1999, 표본조사)",
+        "STAT_CODE": "027Y112",
+        "P_STAT_CODE": "000Y141"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.12.현금흐름표",
+        "STAT_CODE": "000Y149",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.12.1 현금흐름표(2012~)",
+        "STAT_CODE": "027Y413",
+        "P_STAT_CODE": "000Y149"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.12.2 현금흐름표(2008~2011)",
+        "STAT_CODE": "027Y313",
+        "P_STAT_CODE": "000Y149"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.12.3 현금흐름표(1995~2007)",
+        "STAT_CODE": "027Y113",
+        "P_STAT_CODE": "000Y149"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.13.현금흐름관련  기타주요재무항목",
+        "STAT_CODE": "000Y150",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.13.1 현금흐름관련기타주요재무항목(2012~)",
+        "STAT_CODE": "027Y414",
+        "P_STAT_CODE": "000Y150"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.13.2 현금흐름관련기타주요재무항목(2008~2011)",
+        "STAT_CODE": "027Y314",
+        "P_STAT_CODE": "000Y150"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.13.3 현금흐름관련기타주요재무항목(1995~2007)",
+        "STAT_CODE": "027Y114",
+        "P_STAT_CODE": "000Y150"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.14.현금흐름비율",
+        "STAT_CODE": "000Y151",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.14.1 현금흐름비율(2012~)",
+        "STAT_CODE": "027Y415",
+        "P_STAT_CODE": "000Y151"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.14.2 현금흐름비율(2008~2011)",
+        "STAT_CODE": "027Y315",
+        "P_STAT_CODE": "000Y151"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.14.3 현금흐름비율(1995~2007)",
+        "STAT_CODE": "027Y115",
+        "P_STAT_CODE": "000Y151"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.15. 기업경영분석(분기)",
+        "STAT_CODE": "000Y153",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "12.15.1 성장성에 관한 지표",
+        "STAT_CODE": "027Y215",
+        "P_STAT_CODE": "000Y153"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "12.15.2 손익의 관계비율",
+        "STAT_CODE": "027Y216",
+        "P_STAT_CODE": "000Y153"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "12.15.3 자산 자본의 관계비율",
+        "STAT_CODE": "027Y217",
+        "P_STAT_CODE": "000Y153"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "12.15.4 자산의 회전율",
+        "STAT_CODE": "027Y218",
+        "P_STAT_CODE": "000Y153"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.16. 기업경영분석 분위수",
+        "STAT_CODE": "000Y157",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.16.1 기업경영분석 분위수(제10차한국표준산업분류, 2013~)",
+        "STAT_CODE": "027Y612",
+        "P_STAT_CODE": "000Y157"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.16.2 기업경영분석 분위수(2013~2016)",
+        "STAT_CODE": "027Y240",
+        "P_STAT_CODE": "000Y157"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17. 기업경영분석(지역)",
+        "STAT_CODE": "000Y154",
+        "P_STAT_CODE": "000Y127"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.1. 기업경영분석(10차한국표준산업분류)",
+        "STAT_CODE": "000Y166",
+        "P_STAT_CODE": "000Y154"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.1.1. 부산",
+        "STAT_CODE": "000Y450",
+        "P_STAT_CODE": "000Y166"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.1.1. 성장성에 관한 지표",
+        "STAT_CODE": "BA9Y616",
+        "P_STAT_CODE": "000Y450"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.1.2. 손익의관계비율",
+        "STAT_CODE": "BA9Y618",
+        "P_STAT_CODE": "000Y450"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.1.3. 자산·자본의관계비율",
+        "STAT_CODE": "BA9Y620",
+        "P_STAT_CODE": "000Y450"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.1.4. 자산·자본의회전율",
+        "STAT_CODE": "BA9Y622",
+        "P_STAT_CODE": "000Y450"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.1.5. 생산성에관한지표",
+        "STAT_CODE": "BA9Y624",
+        "P_STAT_CODE": "000Y450"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.1.6. 부가가치의 구성",
+        "STAT_CODE": "BA9Y626",
+        "P_STAT_CODE": "000Y450"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.1.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "BA9Y601",
+        "P_STAT_CODE": "000Y450"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.1.8. 손익계산서",
+        "STAT_CODE": "BA9Y605",
+        "P_STAT_CODE": "000Y450"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.1.9. 제조원가명세서",
+        "STAT_CODE": "BA9Y609",
+        "P_STAT_CODE": "000Y450"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.1.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "BA9Y611",
+        "P_STAT_CODE": "000Y450"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.1.2. 대구경북",
+        "STAT_CODE": "000Y451",
+        "P_STAT_CODE": "000Y166"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.2.1. 성장성에 관한 지표",
+        "STAT_CODE": "CA9Y616",
+        "P_STAT_CODE": "000Y451"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.2.2. 손익의관계비율",
+        "STAT_CODE": "CA9Y618",
+        "P_STAT_CODE": "000Y451"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.2.3. 자산·자본의관계비율",
+        "STAT_CODE": "CA9Y620",
+        "P_STAT_CODE": "000Y451"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.2.4. 자산·자본의회전율",
+        "STAT_CODE": "CA9Y622",
+        "P_STAT_CODE": "000Y451"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.2.5. 생산성에관한지표",
+        "STAT_CODE": "CA9Y624",
+        "P_STAT_CODE": "000Y451"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.2.6. 부가가치의 구성",
+        "STAT_CODE": "CA9Y626",
+        "P_STAT_CODE": "000Y451"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.2.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "CA9Y601",
+        "P_STAT_CODE": "000Y451"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.2.8. 손익계산서",
+        "STAT_CODE": "CA9Y605",
+        "P_STAT_CODE": "000Y451"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.2.9. 제조원가명세서",
+        "STAT_CODE": "CA9Y609",
+        "P_STAT_CODE": "000Y451"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.2.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "CA9Y611",
+        "P_STAT_CODE": "000Y451"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.1.3. 광주전남",
+        "STAT_CODE": "000Y452",
+        "P_STAT_CODE": "000Y166"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.3.1. 성장성에 관한 지표",
+        "STAT_CODE": "FA9Y616",
+        "P_STAT_CODE": "000Y452"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.3.2. 손익의관계비율",
+        "STAT_CODE": "FA9Y618",
+        "P_STAT_CODE": "000Y452"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.3.3. 자산·자본의관계비율",
+        "STAT_CODE": "FA9Y620",
+        "P_STAT_CODE": "000Y452"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.3.4. 자산·자본의회전율",
+        "STAT_CODE": "FA9Y622",
+        "P_STAT_CODE": "000Y452"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.3.5. 생산성에관한지표",
+        "STAT_CODE": "FA9Y624",
+        "P_STAT_CODE": "000Y452"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.3.6. 부가가치의 구성",
+        "STAT_CODE": "FA9Y626",
+        "P_STAT_CODE": "000Y452"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.3.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "FA9Y601",
+        "P_STAT_CODE": "000Y452"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.3.8. 손익계산서",
+        "STAT_CODE": "FA9Y605",
+        "P_STAT_CODE": "000Y452"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.3.9. 제조원가명세서",
+        "STAT_CODE": "FA9Y609",
+        "P_STAT_CODE": "000Y452"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.3.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "FA9Y611",
+        "P_STAT_CODE": "000Y452"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.1.4. 대전충남",
+        "STAT_CODE": "000Y453",
+        "P_STAT_CODE": "000Y166"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.4.1. 성장성에 관한 지표",
+        "STAT_CODE": "EA9Y616",
+        "P_STAT_CODE": "000Y453"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.4.2. 손익의관계비율",
+        "STAT_CODE": "EA9Y618",
+        "P_STAT_CODE": "000Y453"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.4.3. 자산·자본의관계비율",
+        "STAT_CODE": "EA9Y620",
+        "P_STAT_CODE": "000Y453"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.4.4. 자산·자본의회전율",
+        "STAT_CODE": "EA9Y622",
+        "P_STAT_CODE": "000Y453"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.4.5. 생산성에관한지표",
+        "STAT_CODE": "EA9Y624",
+        "P_STAT_CODE": "000Y453"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.4.6. 부가가치의 구성",
+        "STAT_CODE": "EA9Y626",
+        "P_STAT_CODE": "000Y453"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.4.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "EA9Y601",
+        "P_STAT_CODE": "000Y453"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.4.8. 손익계산서",
+        "STAT_CODE": "EA9Y605",
+        "P_STAT_CODE": "000Y453"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.4.9. 제조원가명세서",
+        "STAT_CODE": "EA9Y609",
+        "P_STAT_CODE": "000Y453"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.4.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "EA9Y611",
+        "P_STAT_CODE": "000Y453"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.1.5. 충북",
+        "STAT_CODE": "000Y454",
+        "P_STAT_CODE": "000Y166"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.5.1. 성장성에 관한 지표",
+        "STAT_CODE": "NA9Y616",
+        "P_STAT_CODE": "000Y454"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.5.2. 손익의관계비율",
+        "STAT_CODE": "NA9Y618",
+        "P_STAT_CODE": "000Y454"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.5.3. 자산·자본의관계비율",
+        "STAT_CODE": "NA9Y620",
+        "P_STAT_CODE": "000Y454"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.5.4. 자산·자본의회전율",
+        "STAT_CODE": "NA9Y622",
+        "P_STAT_CODE": "000Y454"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.5.5. 생산성에관한지표",
+        "STAT_CODE": "NA9Y624",
+        "P_STAT_CODE": "000Y454"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.5.6. 부가가치의 구성",
+        "STAT_CODE": "NA9Y626",
+        "P_STAT_CODE": "000Y454"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.5.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "NA9Y601",
+        "P_STAT_CODE": "000Y454"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.5.8. 손익계산서",
+        "STAT_CODE": "NA9Y605",
+        "P_STAT_CODE": "000Y454"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.5.9. 제조원가명세서",
+        "STAT_CODE": "NA9Y609",
+        "P_STAT_CODE": "000Y454"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.5.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "NA9Y611",
+        "P_STAT_CODE": "000Y454"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.1.6. 강원",
+        "STAT_CODE": "000Y455",
+        "P_STAT_CODE": "000Y166"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.6.1. 성장성에 관한 지표",
+        "STAT_CODE": "MA9Y616",
+        "P_STAT_CODE": "000Y455"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.6.2. 손익의관계비율",
+        "STAT_CODE": "MA9Y618",
+        "P_STAT_CODE": "000Y455"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.6.3. 자산·자본의관계비율",
+        "STAT_CODE": "MA9Y620",
+        "P_STAT_CODE": "000Y455"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.6.4. 자산·자본의회전율",
+        "STAT_CODE": "MA9Y622",
+        "P_STAT_CODE": "000Y455"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.6.5. 생산성에관한지표",
+        "STAT_CODE": "MA9Y624",
+        "P_STAT_CODE": "000Y455"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.6.6. 부가가치의 구성",
+        "STAT_CODE": "MA9Y626",
+        "P_STAT_CODE": "000Y455"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.6.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "MA9Y601",
+        "P_STAT_CODE": "000Y455"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.6.8. 손익계산서",
+        "STAT_CODE": "MA9Y605",
+        "P_STAT_CODE": "000Y455"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.6.9. 제조원가명세서",
+        "STAT_CODE": "MA9Y609",
+        "P_STAT_CODE": "000Y455"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.6.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "MA9Y611",
+        "P_STAT_CODE": "000Y455"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.1.7. 인천",
+        "STAT_CODE": "000Y456",
+        "P_STAT_CODE": "000Y166"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.7.1. 성장성에 관한 지표",
+        "STAT_CODE": "DA9Y616",
+        "P_STAT_CODE": "000Y456"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.7.2. 손익의관계비율",
+        "STAT_CODE": "DA9Y618",
+        "P_STAT_CODE": "000Y456"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.7.3. 자산·자본의관계비율",
+        "STAT_CODE": "DA9Y620",
+        "P_STAT_CODE": "000Y456"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.7.4. 자산·자본의회전율",
+        "STAT_CODE": "DA9Y622",
+        "P_STAT_CODE": "000Y456"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.7.5. 생산성에관한지표",
+        "STAT_CODE": "DA9Y624",
+        "P_STAT_CODE": "000Y456"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.7.6. 부가가치의 구성",
+        "STAT_CODE": "DA9Y626",
+        "P_STAT_CODE": "000Y456"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.7.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "DA9Y601",
+        "P_STAT_CODE": "000Y456"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.7.8. 손익계산서",
+        "STAT_CODE": "DA9Y605",
+        "P_STAT_CODE": "000Y456"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.7.9. 제조원가명세서",
+        "STAT_CODE": "DA9Y609",
+        "P_STAT_CODE": "000Y456"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.7.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "DA9Y611",
+        "P_STAT_CODE": "000Y456"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.1.8. 제주",
+        "STAT_CODE": "000Y457",
+        "P_STAT_CODE": "000Y166"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.8.1. 성장성에 관한 지표",
+        "STAT_CODE": "UA9Y616",
+        "P_STAT_CODE": "000Y457"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.8.2. 손익의관계비율",
+        "STAT_CODE": "UA9Y618",
+        "P_STAT_CODE": "000Y457"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.8.3. 자산·자본의관계비율",
+        "STAT_CODE": "UA9Y620",
+        "P_STAT_CODE": "000Y457"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.8.4. 자산·자본의회전율",
+        "STAT_CODE": "UA9Y622",
+        "P_STAT_CODE": "000Y457"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.8.5. 생산성에관한지표",
+        "STAT_CODE": "UA9Y624",
+        "P_STAT_CODE": "000Y457"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.8.6. 부가가치의 구성",
+        "STAT_CODE": "UA9Y626",
+        "P_STAT_CODE": "000Y457"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.8.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "UA9Y601",
+        "P_STAT_CODE": "000Y457"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.8.8. 손익계산서",
+        "STAT_CODE": "UA9Y605",
+        "P_STAT_CODE": "000Y457"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.8.9. 제조원가명세서",
+        "STAT_CODE": "UA9Y609",
+        "P_STAT_CODE": "000Y457"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.1.9. 경기",
+        "STAT_CODE": "000Y458",
+        "P_STAT_CODE": "000Y166"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.9.1. 성장성에 관한 지표",
+        "STAT_CODE": "LA9Y616",
+        "P_STAT_CODE": "000Y458"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.9.2. 손익의관계비율",
+        "STAT_CODE": "LA9Y618",
+        "P_STAT_CODE": "000Y458"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.9.3. 자산·자본의관계비율",
+        "STAT_CODE": "LA9Y620",
+        "P_STAT_CODE": "000Y458"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.9.4. 자산·자본의회전율",
+        "STAT_CODE": "LA9Y622",
+        "P_STAT_CODE": "000Y458"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.9.5. 생산성에관한지표",
+        "STAT_CODE": "LA9Y624",
+        "P_STAT_CODE": "000Y458"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.9.6. 부가가치의 구성",
+        "STAT_CODE": "LA9Y626",
+        "P_STAT_CODE": "000Y458"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.9.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "LA9Y601",
+        "P_STAT_CODE": "000Y458"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.9.8. 손익계산서",
+        "STAT_CODE": "LA9Y605",
+        "P_STAT_CODE": "000Y458"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.9.9. 제조원가명세서",
+        "STAT_CODE": "LA9Y609",
+        "P_STAT_CODE": "000Y458"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.9.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "LA9Y611",
+        "P_STAT_CODE": "000Y458"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.1.10. 경남",
+        "STAT_CODE": "000Y459",
+        "P_STAT_CODE": "000Y166"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.10.1. 성장성에 관한 지표",
+        "STAT_CODE": "TA9Y616",
+        "P_STAT_CODE": "000Y459"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.10.2. 손익의관계비율",
+        "STAT_CODE": "TA9Y618",
+        "P_STAT_CODE": "000Y459"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.10.3. 자산·자본의관계비율",
+        "STAT_CODE": "TA9Y620",
+        "P_STAT_CODE": "000Y459"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.10.4. 자산·자본의회전율",
+        "STAT_CODE": "TA9Y622",
+        "P_STAT_CODE": "000Y459"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.10.5. 생산성에관한지표",
+        "STAT_CODE": "TA9Y624",
+        "P_STAT_CODE": "000Y459"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.10.6. 부가가치의 구성",
+        "STAT_CODE": "TA9Y626",
+        "P_STAT_CODE": "000Y459"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.10.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "TA9Y601",
+        "P_STAT_CODE": "000Y459"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.10.8. 손익계산서",
+        "STAT_CODE": "TA9Y605",
+        "P_STAT_CODE": "000Y459"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.10.9. 제조원가명세서",
+        "STAT_CODE": "TA9Y609",
+        "P_STAT_CODE": "000Y459"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.1.11. 울산",
+        "STAT_CODE": "000Y460",
+        "P_STAT_CODE": "000Y166"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.11.1. 성장성에 관한 지표",
+        "STAT_CODE": "GA9Y616",
+        "P_STAT_CODE": "000Y460"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.11.2. 손익의관계비율",
+        "STAT_CODE": "GA9Y618",
+        "P_STAT_CODE": "000Y460"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.11.3. 자산·자본의관계비율",
+        "STAT_CODE": "GA9Y620",
+        "P_STAT_CODE": "000Y460"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.11.4. 자산·자본의회전율",
+        "STAT_CODE": "GA9Y622",
+        "P_STAT_CODE": "000Y460"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.11.5. 생산성에관한지표",
+        "STAT_CODE": "GA9Y624",
+        "P_STAT_CODE": "000Y460"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.11.6. 부가가치의 구성",
+        "STAT_CODE": "GA9Y626",
+        "P_STAT_CODE": "000Y460"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.11.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "GA9Y601",
+        "P_STAT_CODE": "000Y460"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.11.8. 손익계산서",
+        "STAT_CODE": "GA9Y605",
+        "P_STAT_CODE": "000Y460"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.11.9. 제조원가명세서",
+        "STAT_CODE": "GA9Y609",
+        "P_STAT_CODE": "000Y460"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.1.11.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "GA9Y611",
+        "P_STAT_CODE": "000Y460"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.2. 기업경영분석(9차한국표준산업분류)",
+        "STAT_CODE": "000Y165",
+        "P_STAT_CODE": "000Y154"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.2.1. 부산",
+        "STAT_CODE": "000Y260",
+        "P_STAT_CODE": "000Y165"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.1.1. 성장성에 관한 지표",
+        "STAT_CODE": "BA9Y516",
+        "P_STAT_CODE": "000Y260"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.1.2. 손익의관계비율",
+        "STAT_CODE": "BA9Y518",
+        "P_STAT_CODE": "000Y260"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.1.3. 자산·자본의관계비율",
+        "STAT_CODE": "BA9Y520",
+        "P_STAT_CODE": "000Y260"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.1.4. 자산·자본의회전율",
+        "STAT_CODE": "BA9Y522",
+        "P_STAT_CODE": "000Y260"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.1.5. 생산성에관한지표",
+        "STAT_CODE": "BA9Y524",
+        "P_STAT_CODE": "000Y260"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.1.6. 부가가치의 구성",
+        "STAT_CODE": "BA9Y526",
+        "P_STAT_CODE": "000Y260"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.1.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "BA9Y501",
+        "P_STAT_CODE": "000Y260"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.1.8. 손익계산서",
+        "STAT_CODE": "BA9Y505",
+        "P_STAT_CODE": "000Y260"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.1.9. 제조원가명세서",
+        "STAT_CODE": "BA9Y509",
+        "P_STAT_CODE": "000Y260"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.1.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "BA9Y511",
+        "P_STAT_CODE": "000Y260"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.2.2. 대구경북",
+        "STAT_CODE": "000Y261",
+        "P_STAT_CODE": "000Y165"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.2.1. 성장성에 관한 지표",
+        "STAT_CODE": "CA9Y516",
+        "P_STAT_CODE": "000Y261"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.2.2. 손익의관계비율",
+        "STAT_CODE": "CA9Y518",
+        "P_STAT_CODE": "000Y261"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.2.3. 자산·자본의관계비율",
+        "STAT_CODE": "CA9Y520",
+        "P_STAT_CODE": "000Y261"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.2.4. 자산·자본의회전율",
+        "STAT_CODE": "CA9Y522",
+        "P_STAT_CODE": "000Y261"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.2.5. 생산성에관한지표",
+        "STAT_CODE": "CA9Y524",
+        "P_STAT_CODE": "000Y261"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.2.6. 부가가치의 구성",
+        "STAT_CODE": "CA9Y526",
+        "P_STAT_CODE": "000Y261"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.2.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "CA9Y501",
+        "P_STAT_CODE": "000Y261"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.2.8. 손익계산서",
+        "STAT_CODE": "CA9Y505",
+        "P_STAT_CODE": "000Y261"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.2.9. 제조원가명세서",
+        "STAT_CODE": "CA9Y509",
+        "P_STAT_CODE": "000Y261"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.2.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "CA9Y511",
+        "P_STAT_CODE": "000Y261"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.2.3. 광주전남",
+        "STAT_CODE": "000Y262",
+        "P_STAT_CODE": "000Y165"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.3.1. 성장성에 관한 지표",
+        "STAT_CODE": "FA9Y516",
+        "P_STAT_CODE": "000Y262"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.3.2. 손익의관계비율",
+        "STAT_CODE": "FA9Y518",
+        "P_STAT_CODE": "000Y262"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.3.3. 자산·자본의관계비율",
+        "STAT_CODE": "FA9Y520",
+        "P_STAT_CODE": "000Y262"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.3.4. 자산·자본의회전율",
+        "STAT_CODE": "FA9Y522",
+        "P_STAT_CODE": "000Y262"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.3.5. 생산성에관한지표",
+        "STAT_CODE": "FA9Y524",
+        "P_STAT_CODE": "000Y262"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.3.6. 부가가치의 구성",
+        "STAT_CODE": "FA9Y526",
+        "P_STAT_CODE": "000Y262"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.3.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "FA9Y501",
+        "P_STAT_CODE": "000Y262"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.3.8. 손익계산서",
+        "STAT_CODE": "FA9Y505",
+        "P_STAT_CODE": "000Y262"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.3.9. 제조원가명세서",
+        "STAT_CODE": "FA9Y509",
+        "P_STAT_CODE": "000Y262"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.3.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "FA9Y511",
+        "P_STAT_CODE": "000Y262"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.2.4. 대전충남",
+        "STAT_CODE": "000Y263",
+        "P_STAT_CODE": "000Y165"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.4.1. 성장성에 관한 지표",
+        "STAT_CODE": "EA9Y516",
+        "P_STAT_CODE": "000Y263"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.4.2. 손익의관계비율",
+        "STAT_CODE": "EA9Y518",
+        "P_STAT_CODE": "000Y263"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.4.3. 자산·자본의관계비율",
+        "STAT_CODE": "EA9Y520",
+        "P_STAT_CODE": "000Y263"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.4.4. 자산·자본의회전율",
+        "STAT_CODE": "EA9Y522",
+        "P_STAT_CODE": "000Y263"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.4.5. 생산성에관한지표",
+        "STAT_CODE": "EA9Y524",
+        "P_STAT_CODE": "000Y263"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.4.6. 부가가치의 구성",
+        "STAT_CODE": "EA9Y526",
+        "P_STAT_CODE": "000Y263"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.4.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "EA9Y501",
+        "P_STAT_CODE": "000Y263"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.4.8. 손익계산서",
+        "STAT_CODE": "EA9Y505",
+        "P_STAT_CODE": "000Y263"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.4.9. 제조원가명세서",
+        "STAT_CODE": "EA9Y509",
+        "P_STAT_CODE": "000Y263"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.4.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "EA9Y511",
+        "P_STAT_CODE": "000Y263"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.2.5. 충북",
+        "STAT_CODE": "000Y264",
+        "P_STAT_CODE": "000Y165"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.5.1. 성장성에 관한 지표",
+        "STAT_CODE": "NA9Y516",
+        "P_STAT_CODE": "000Y264"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.5.2. 손익의관계비율",
+        "STAT_CODE": "NA9Y518",
+        "P_STAT_CODE": "000Y264"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.5.3. 자산·자본의관계비율",
+        "STAT_CODE": "NA9Y520",
+        "P_STAT_CODE": "000Y264"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.5.4. 자산·자본의회전율",
+        "STAT_CODE": "NA9Y522",
+        "P_STAT_CODE": "000Y264"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.5.5. 생산성에관한지표",
+        "STAT_CODE": "NA9Y524",
+        "P_STAT_CODE": "000Y264"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.5.6. 부가가치의 구성",
+        "STAT_CODE": "NA9Y526",
+        "P_STAT_CODE": "000Y264"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.5.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "NA9Y501",
+        "P_STAT_CODE": "000Y264"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.5.8. 손익계산서",
+        "STAT_CODE": "NA9Y505",
+        "P_STAT_CODE": "000Y264"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.5.9. 제조원가명세서",
+        "STAT_CODE": "NA9Y509",
+        "P_STAT_CODE": "000Y264"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.5.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "NA9Y511",
+        "P_STAT_CODE": "000Y264"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.2.6. 강원",
+        "STAT_CODE": "000Y265",
+        "P_STAT_CODE": "000Y165"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.6.1. 성장성에 관한 지표",
+        "STAT_CODE": "MA9Y516",
+        "P_STAT_CODE": "000Y265"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.6.2. 손익의관계비율",
+        "STAT_CODE": "MA9Y518",
+        "P_STAT_CODE": "000Y265"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.6.3. 자산·자본의관계비율",
+        "STAT_CODE": "MA9Y520",
+        "P_STAT_CODE": "000Y265"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.6.4. 자산·자본의회전율",
+        "STAT_CODE": "MA9Y522",
+        "P_STAT_CODE": "000Y265"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.6.5. 생산성에관한지표",
+        "STAT_CODE": "MA9Y524",
+        "P_STAT_CODE": "000Y265"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.6.6. 부가가치의 구성",
+        "STAT_CODE": "MA9Y526",
+        "P_STAT_CODE": "000Y265"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.6.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "MA9Y501",
+        "P_STAT_CODE": "000Y265"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.6.8. 손익계산서",
+        "STAT_CODE": "MA9Y505",
+        "P_STAT_CODE": "000Y265"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.6.9. 제조원가명세서",
+        "STAT_CODE": "MA9Y509",
+        "P_STAT_CODE": "000Y265"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.6.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "MA9Y511",
+        "P_STAT_CODE": "000Y265"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.2.7. 인천",
+        "STAT_CODE": "000Y266",
+        "P_STAT_CODE": "000Y165"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.7.1. 성장성에 관한 지표",
+        "STAT_CODE": "DA9Y516",
+        "P_STAT_CODE": "000Y266"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.7.2. 손익의관계비율",
+        "STAT_CODE": "DA9Y518",
+        "P_STAT_CODE": "000Y266"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.7.3. 자산·자본의관계비율",
+        "STAT_CODE": "DA9Y520",
+        "P_STAT_CODE": "000Y266"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.7.4. 자산·자본의회전율",
+        "STAT_CODE": "DA9Y522",
+        "P_STAT_CODE": "000Y266"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.7.5. 생산성에관한지표",
+        "STAT_CODE": "DA9Y524",
+        "P_STAT_CODE": "000Y266"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.7.6. 부가가치의 구성",
+        "STAT_CODE": "DA9Y526",
+        "P_STAT_CODE": "000Y266"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.7.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "DA9Y501",
+        "P_STAT_CODE": "000Y266"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.7.8. 손익계산서",
+        "STAT_CODE": "DA9Y505",
+        "P_STAT_CODE": "000Y266"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.7.9. 제조원가명세서",
+        "STAT_CODE": "DA9Y509",
+        "P_STAT_CODE": "000Y266"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.7.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "DA9Y511",
+        "P_STAT_CODE": "000Y266"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.2.8. 제주",
+        "STAT_CODE": "000Y267",
+        "P_STAT_CODE": "000Y165"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.8.1. 성장성에 관한 지표",
+        "STAT_CODE": "UA9Y516",
+        "P_STAT_CODE": "000Y267"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.8.2. 손익의관계비율",
+        "STAT_CODE": "UA9Y518",
+        "P_STAT_CODE": "000Y267"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.8.3. 자산·자본의관계비율",
+        "STAT_CODE": "UA9Y520",
+        "P_STAT_CODE": "000Y267"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.8.4. 자산·자본의회전율",
+        "STAT_CODE": "UA9Y522",
+        "P_STAT_CODE": "000Y267"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.8.5. 생산성에관한지표",
+        "STAT_CODE": "UA9Y524",
+        "P_STAT_CODE": "000Y267"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.8.6. 부가가치의 구성",
+        "STAT_CODE": "UA9Y526",
+        "P_STAT_CODE": "000Y267"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.8.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "UA9Y501",
+        "P_STAT_CODE": "000Y267"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.8.8. 손익계산서",
+        "STAT_CODE": "UA9Y505",
+        "P_STAT_CODE": "000Y267"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.8.9. 제조원가명세서",
+        "STAT_CODE": "UA9Y509",
+        "P_STAT_CODE": "000Y267"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.2.9. 경기",
+        "STAT_CODE": "000Y268",
+        "P_STAT_CODE": "000Y165"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.9.1. 성장성에 관한 지표",
+        "STAT_CODE": "LA9Y516",
+        "P_STAT_CODE": "000Y268"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.9.2. 손익의관계비율",
+        "STAT_CODE": "LA9Y518",
+        "P_STAT_CODE": "000Y268"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.9.3. 자산·자본의관계비율",
+        "STAT_CODE": "LA9Y520",
+        "P_STAT_CODE": "000Y268"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.9.4. 자산·자본의회전율",
+        "STAT_CODE": "LA9Y522",
+        "P_STAT_CODE": "000Y268"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.9.5. 생산성에관한지표",
+        "STAT_CODE": "LA9Y524",
+        "P_STAT_CODE": "000Y268"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.9.6. 부가가치의 구성",
+        "STAT_CODE": "LA9Y526",
+        "P_STAT_CODE": "000Y268"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.9.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "LA9Y501",
+        "P_STAT_CODE": "000Y268"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.9.8. 손익계산서",
+        "STAT_CODE": "LA9Y505",
+        "P_STAT_CODE": "000Y268"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.9.9. 제조원가명세서",
+        "STAT_CODE": "LA9Y509",
+        "P_STAT_CODE": "000Y268"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.9.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "LA9Y511",
+        "P_STAT_CODE": "000Y268"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.2.10. 경남",
+        "STAT_CODE": "000Y269",
+        "P_STAT_CODE": "000Y165"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.10.1. 성장성에 관한 지표",
+        "STAT_CODE": "TA9Y516",
+        "P_STAT_CODE": "000Y269"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.10.2. 손익의관계비율",
+        "STAT_CODE": "TA9Y518",
+        "P_STAT_CODE": "000Y269"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.10.3. 자산·자본의관계비율",
+        "STAT_CODE": "TA9Y520",
+        "P_STAT_CODE": "000Y269"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.10.4. 자산·자본의회전율",
+        "STAT_CODE": "TA9Y522",
+        "P_STAT_CODE": "000Y269"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.10.5. 생산성에관한지표",
+        "STAT_CODE": "TA9Y524",
+        "P_STAT_CODE": "000Y269"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.10.6. 부가가치의 구성",
+        "STAT_CODE": "TA9Y526",
+        "P_STAT_CODE": "000Y269"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.10.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "TA9Y501",
+        "P_STAT_CODE": "000Y269"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.10.8. 손익계산서",
+        "STAT_CODE": "TA9Y505",
+        "P_STAT_CODE": "000Y269"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.10.9. 제조원가명세서",
+        "STAT_CODE": "TA9Y509",
+        "P_STAT_CODE": "000Y269"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "12.17.2.11. 울산",
+        "STAT_CODE": "000Y270",
+        "P_STAT_CODE": "000Y165"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.11.1. 성장성에 관한 지표",
+        "STAT_CODE": "GA9Y516",
+        "P_STAT_CODE": "000Y270"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.11.2. 손익의관계비율",
+        "STAT_CODE": "GA9Y518",
+        "P_STAT_CODE": "000Y270"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.11.3. 자산·자본의관계비율",
+        "STAT_CODE": "GA9Y520",
+        "P_STAT_CODE": "000Y270"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.11.4. 자산·자본의회전율",
+        "STAT_CODE": "GA9Y522",
+        "P_STAT_CODE": "000Y270"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.11.5. 생산성에관한지표",
+        "STAT_CODE": "GA9Y524",
+        "P_STAT_CODE": "000Y270"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.11.6. 부가가치의 구성",
+        "STAT_CODE": "GA9Y526",
+        "P_STAT_CODE": "000Y270"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.11.7. 재무상태표(대차대조표)",
+        "STAT_CODE": "GA9Y501",
+        "P_STAT_CODE": "000Y270"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.11.8. 손익계산서",
+        "STAT_CODE": "GA9Y505",
+        "P_STAT_CODE": "000Y270"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.11.9. 제조원가명세서",
+        "STAT_CODE": "GA9Y509",
+        "P_STAT_CODE": "000Y270"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "12.17.2.11.10. 이익잉여금   처분계산서",
+        "STAT_CODE": "GA9Y511",
+        "P_STAT_CODE": "000Y270"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "13.산업연관표",
+        "STAT_CODE": "000Y030",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "14.국민대차대조표(2015년 기준년)",
+        "STAT_CODE": "000Y470",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "14.1.자산별 자본스톡",
+        "STAT_CODE": "000Y471",
+        "P_STAT_CODE": "000Y470"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.1.1 자산별 순자본스톡(명목, 연말기준)",
+        "STAT_CODE": "104Y401",
+        "P_STAT_CODE": "000Y471"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.1.2 자산별 순자본스톡(실질, 연말기준)",
+        "STAT_CODE": "104Y402",
+        "P_STAT_CODE": "000Y471"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.1.3 자산별 생산자본스톡(명목, 연말기준)",
+        "STAT_CODE": "104Y403",
+        "P_STAT_CODE": "000Y471"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.1.4 자산별 생산자본스톡(실질, 연말기준)",
+        "STAT_CODE": "104Y404",
+        "P_STAT_CODE": "000Y471"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "14.2.제도부문별 대차대조표",
+        "STAT_CODE": "000Y472",
+        "P_STAT_CODE": "000Y470"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.2.1 제도부문별 대차대조표(명목, 연말기준)",
+        "STAT_CODE": "104Y405",
+        "P_STAT_CODE": "000Y472"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.2.2 자산/부채의 증감(명목)",
+        "STAT_CODE": "104Y406",
+        "P_STAT_CODE": "000Y472"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.2.3 순자산 증감(명목)",
+        "STAT_CODE": "104Y407",
+        "P_STAT_CODE": "000Y472"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "14.3.제도부문별 순자본스톡",
+        "STAT_CODE": "000Y473",
+        "P_STAT_CODE": "000Y470"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.3.1 제도부문별 순자본스톡(명목, 연말기준)",
+        "STAT_CODE": "104Y408",
+        "P_STAT_CODE": "000Y473"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "14.4.제도부문별 비금융자산별 보유손익(명목)",
+        "STAT_CODE": "000Y474",
+        "P_STAT_CODE": "000Y470"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.4.1 제도부문별 비금융자산별 명목보유손익(명목)",
+        "STAT_CODE": "104Y409",
+        "P_STAT_CODE": "000Y474"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.4.2 제도부문별 비금융자산별 중립보유손익(명목)",
+        "STAT_CODE": "104Y410",
+        "P_STAT_CODE": "000Y474"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.4.3 제도부문별 비금융자산별 실질보유손익(명목)",
+        "STAT_CODE": "104Y411",
+        "P_STAT_CODE": "000Y474"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "14.5.제도부문별 생산자본스톡",
+        "STAT_CODE": "000Y475",
+        "P_STAT_CODE": "000Y470"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.5.1 제도부문별 생산자본스톡(명목, 연말기준)",
+        "STAT_CODE": "104Y412",
+        "P_STAT_CODE": "000Y475"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.5.2 제도부문별 생산자본스톡(실질, 연말기준)",
+        "STAT_CODE": "104Y413",
+        "P_STAT_CODE": "000Y475"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "14.6.제도부문별 자본서비스물량지수",
+        "STAT_CODE": "000Y476",
+        "P_STAT_CODE": "000Y470"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.6.1 제도부문별 연쇄라스파이레스 자본서비스물량지수",
+        "STAT_CODE": "104Y414",
+        "P_STAT_CODE": "000Y476"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.6.2 제도부문별 연쇄통크비스트 자본서비스물량지수",
+        "STAT_CODE": "104Y415",
+        "P_STAT_CODE": "000Y476"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.6.3 제도부문별 자본사용자비용 비중(명목, %)",
+        "STAT_CODE": "104Y416",
+        "P_STAT_CODE": "000Y476"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "14.7.경제활동별 순자본스톡",
+        "STAT_CODE": "000Y477",
+        "P_STAT_CODE": "000Y470"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.7.1 경제활동별 순자본스톡(명목, 연말기준)",
+        "STAT_CODE": "104Y417",
+        "P_STAT_CODE": "000Y477"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.7.2 경제활동별 순자본스톡(실질, 연말기준)",
+        "STAT_CODE": "104Y418",
+        "P_STAT_CODE": "000Y477"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "14.8.경제활동별 생산자본스톡",
+        "STAT_CODE": "000Y478",
+        "P_STAT_CODE": "000Y470"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.8.1 경제활동별 생산자본스톡(명목, 연말기준)",
+        "STAT_CODE": "104Y419",
+        "P_STAT_CODE": "000Y478"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.8.2 경제활동별 생산자본스톡(실질, 연말기준)",
+        "STAT_CODE": "104Y420",
+        "P_STAT_CODE": "000Y478"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "14.9.경제활동별 자본서비스물량지수",
+        "STAT_CODE": "000Y479",
+        "P_STAT_CODE": "000Y470"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.9.1 경제활동별 연쇄라스파이레스 자본서비스물량지수",
+        "STAT_CODE": "104Y421",
+        "P_STAT_CODE": "000Y479"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.9.2 경제활동별 연쇄통크비스트 자본서비스물량지수",
+        "STAT_CODE": "104Y422",
+        "P_STAT_CODE": "000Y479"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.9.3 경제활동별 자본사용자비용 비중(명목, %)",
+        "STAT_CODE": "104Y423",
+        "P_STAT_CODE": "000Y479"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.10.주택 시가총액(명목, 연말기준)",
+        "STAT_CODE": "104Y424",
+        "P_STAT_CODE": "000Y470"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "14.11.시도별 토지자산 순자본스톡(명목, 연말기준)",
+        "STAT_CODE": "104Y425",
+        "P_STAT_CODE": "000Y470"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "15.대출행태서베이",
+        "STAT_CODE": "000Y093",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "15.1.대출태도",
+        "STAT_CODE": "093Y001",
+        "P_STAT_CODE": "000Y093"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "15.2.신용위험",
+        "STAT_CODE": "093Y002",
+        "P_STAT_CODE": "000Y093"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "QQ",
+        "STAT_NAME": "15.3.대출수요",
+        "STAT_CODE": "093Y003",
+        "P_STAT_CODE": "000Y093"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "16.산업 및 고용",
+        "STAT_CODE": "000Y080",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "16.1.산업일반",
+        "STAT_CODE": "000Y081",
+        "P_STAT_CODE": "000Y080"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 042-481-3781)",
+        "CYCLE": "YY",
+        "STAT_NAME": "16.1.1 산업별 사업체수 및 종사자수",
+        "STAT_CODE": "085Y058",
+        "P_STAT_CODE": "000Y081"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 042-481-2170 )",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.1.2 전산업생산지수(농림어업제외)",
+        "STAT_CODE": "080Y102",
+        "P_STAT_CODE": "000Y081"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청 ( ☎ 042-481-2173 )",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.1.3 설비투자지수",
+        "STAT_CODE": "085Y025",
+        "P_STAT_CODE": "000Y081"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청 ( ☎ 042-481-2229 )",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.1.4 경기종합지수",
+        "STAT_CODE": "085Y026",
+        "P_STAT_CODE": "000Y081"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "16.2.농림어업",
+        "STAT_CODE": "000Y082",
+        "P_STAT_CODE": "000Y080"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청( ☎ 044-201-1409 )",
+        "CYCLE": "YY",
+        "STAT_NAME": "16.2.1 농림생산지수",
+        "STAT_CODE": "080Y007",
+        "P_STAT_CODE": "000Y082"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청( ☎ 042-481-2595 )",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.2.2 어획량",
+        "STAT_CODE": "080Y009",
+        "P_STAT_CODE": "000Y082"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청 ( ☎ 042-481-3806 )",
+        "CYCLE": "YY",
+        "STAT_NAME": "16.2.3 농어가인구 및 가구수",
+        "STAT_CODE": "085Y027",
+        "P_STAT_CODE": "000Y082"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청( ☎ 042-481-2528 )",
+        "CYCLE": "YY",
+        "STAT_NAME": "16.2.4 경지면적",
+        "STAT_CODE": "085Y028",
+        "P_STAT_CODE": "000Y082"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청( ☎ 042-481-2306 )",
+        "CYCLE": "YY",
+        "STAT_NAME": "16.2.5 농어가 자산 및 부채",
+        "STAT_CODE": "085Y029",
+        "P_STAT_CODE": "000Y082"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "16.3.광업 및 제조업",
+        "STAT_CODE": "000Y083",
+        "P_STAT_CODE": "000Y080"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청( ☎ 042-481-2178 )",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.3.1 산업별 생산·출하·재고지수",
+        "STAT_CODE": "080Y101",
+        "P_STAT_CODE": "000Y083"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청( ☎ 042-481-2178 )",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.3.2 재별 제조업생산지수",
+        "STAT_CODE": "080Y110",
+        "P_STAT_CODE": "000Y083"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청( ☎ 042-481-2178 )",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.3.3 제조업 생산능력 및 가동률지수",
+        "STAT_CODE": "080Y111",
+        "P_STAT_CODE": "000Y083"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청( ☎ 042-481-2178 )",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.3.4 제조업 평균가동률",
+        "STAT_CODE": "080Y031",
+        "P_STAT_CODE": "000Y083"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(02-2012-9114)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.3.5 설비용 기계류 생산지수",
+        "STAT_CODE": "080Y115",
+        "P_STAT_CODE": "000Y083"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎042-481-2158)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.3.6 기계수주액",
+        "STAT_CODE": "080Y015",
+        "P_STAT_CODE": "000Y083"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎042-481-2178)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.3.7 품목별 광공업 생산ㆍ출하ㆍ재고ㆍ내수ㆍ수출량",
+        "STAT_CODE": "080Y132",
+        "P_STAT_CODE": "000Y083"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청( ☎ 042-481-2178 )",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.3.8 제조업 재고율지수",
+        "STAT_CODE": "080Y033",
+        "P_STAT_CODE": "000Y083"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "16.4.전기,가스,수도사업,  건설업",
+        "STAT_CODE": "000Y084",
+        "P_STAT_CODE": "000Y080"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국전력공사(061-345-3114)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.4.1 부문별전력사용량",
+        "STAT_CODE": "080Y016",
+        "P_STAT_CODE": "000Y084"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국전력공사(061-345-3114)",
+        "CYCLE": "YY",
+        "STAT_NAME": "16.4.2 발전전력량",
+        "STAT_CODE": "085Y033",
+        "P_STAT_CODE": "000Y084"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "에너지경제연구원(052-714-2114)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.4.3 에너지소비량",
+        "STAT_CODE": "085Y034",
+        "P_STAT_CODE": "000Y084"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국석유공사(052-216-2502)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.4.4 석유제품수급",
+        "STAT_CODE": "085Y035",
+        "P_STAT_CODE": "000Y084"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 042-481-2159)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.4.5 국내건설수주액",
+        "STAT_CODE": "080Y017",
+        "P_STAT_CODE": "000Y084"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "국토교통부(☎ 044-201-4751)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.4.6 건축허가현황",
+        "STAT_CODE": "080Y118",
+        "P_STAT_CODE": "000Y084"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "국토교통부(☎ 044-201-4751)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.4.7 건축물착공현황",
+        "STAT_CODE": "085Y136",
+        "P_STAT_CODE": "000Y084"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 042-481-2159)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.4.8 건설기성액",
+        "STAT_CODE": "085Y137",
+        "P_STAT_CODE": "000Y084"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": " 통계청(☎ 044-201-3328)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.4.9 주택건설인허가실적",
+        "STAT_CODE": "085Y138",
+        "P_STAT_CODE": "000Y084"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 044-201-3328)",
+        "CYCLE": "YY",
+        "STAT_NAME": "16.4.10 주택보유수 및 주택보급률",
+        "STAT_CODE": "085Y139",
+        "P_STAT_CODE": "000Y084"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 044-201-4089)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.4.11 미분양주택현황",
+        "STAT_CODE": "085Y039",
+        "P_STAT_CODE": "000Y084"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "16.5.서비스업",
+        "STAT_CODE": "000Y085",
+        "P_STAT_CODE": "000Y080"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 042-481-3865)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.5.1 산업별 서비스업생산지수",
+        "STAT_CODE": "080Y119",
+        "P_STAT_CODE": "000Y085"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 042-481-2198)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.5.2 소매업태별 판매액지수",
+        "STAT_CODE": "085Y074",
+        "P_STAT_CODE": "000Y085"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 042-481-2198)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.5.3 재별 및 상품군별 판매액지수",
+        "STAT_CODE": "085Y076",
+        "P_STAT_CODE": "000Y085"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 042-481-2196)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.5.4 도소매업 재고액지수",
+        "STAT_CODE": "085Y077",
+        "P_STAT_CODE": "000Y085"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "관세청(125)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.5.5 소비재 수입액",
+        "STAT_CODE": "085Y068",
+        "P_STAT_CODE": "000Y085"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "국토교통부(☎ 044-201-3789)",
+        "CYCLE": "YY",
+        "STAT_NAME": "16.5.6 여객수송실적",
+        "STAT_CODE": "085Y040",
+        "P_STAT_CODE": "000Y085"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": " 통계청(☎ 044-201-3861)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.5.7 자동차등록대수",
+        "STAT_CODE": "085Y075",
+        "P_STAT_CODE": "000Y085"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국정보통신진흥협회(02-580-0580)",
+        "CYCLE": "YY",
+        "STAT_NAME": "16.5.8 정보통신서비스 이용실적",
+        "STAT_CODE": "085Y043",
+        "P_STAT_CODE": "000Y085"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "16.6.고용,임금,가계,사회",
+        "STAT_CODE": "000Y086",
+        "P_STAT_CODE": "000Y080"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 042-481-2265~2268, 2270)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.6.1 경제활동인구",
+        "STAT_CODE": "080Y034",
+        "P_STAT_CODE": "000Y086"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 042-481-2261)",
+        "CYCLE": "YY",
+        "STAT_NAME": "16.6.2 추계인구, 고령인구비율, 합계출산율",
+        "STAT_CODE": "080Y035",
+        "P_STAT_CODE": "000Y086"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국고용정보원(☎ 1577- 7114 )",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.6.3 고용보험가입현황",
+        "STAT_CODE": "085Y056",
+        "P_STAT_CODE": "000Y086"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 042-481-2306 )",
+        "CYCLE": "YY",
+        "STAT_NAME": "16.6.4 농가가계수지",
+        "STAT_CODE": "080Y030",
+        "P_STAT_CODE": "000Y086"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국고용정보원(☎ 1577-7114)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.6.5 실업급여수급실적",
+        "STAT_CODE": "085Y057",
+        "P_STAT_CODE": "000Y086"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎044-202-7242)",
+        "CYCLE": "MM",
+        "STAT_NAME": "16.6.6 산업/규모별 임금 및 근로시간",
+        "STAT_CODE": "080Y147",
+        "P_STAT_CODE": "000Y086"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 044-202-7241,7248)",
+        "CYCLE": "YY",
+        "STAT_NAME": "16.6.7 직종별평균임금",
+        "STAT_CODE": "085Y061",
+        "P_STAT_CODE": "000Y086"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국생산성본부(☎ 02-724-1061)",
+        "CYCLE": "QQ",
+        "STAT_NAME": "16.6.8 노동생산성지수",
+        "STAT_CODE": "085Y162",
+        "P_STAT_CODE": "000Y086"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "한국생산성본부(☎ 02-724-1061)",
+        "CYCLE": "QQ",
+        "STAT_NAME": "16.6.9 단위노동비용지수",
+        "STAT_CODE": "085Y063",
+        "P_STAT_CODE": "000Y086"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "\r\n한국생산성본부(☎ 02-724-1061)",
+        "CYCLE": "QQ",
+        "STAT_NAME": "16.6.10 시간당 명목임금지수",
+        "STAT_CODE": "085Y090",
+        "P_STAT_CODE": "000Y086"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 042-481-2289)",
+        "CYCLE": "QQ",
+        "STAT_NAME": "16.6.11 가구당 월평균 가계수지(전국, 2인이상)",
+        "STAT_CODE": "080Y136",
+        "P_STAT_CODE": "000Y086"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 042-481-2289)",
+        "CYCLE": "YY",
+        "STAT_NAME": "16.6.12 가구당 월평균 가계수지(전국, 1인이상)",
+        "STAT_CODE": "080Y137",
+        "P_STAT_CODE": "000Y086"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "통계청(☎ 042-481-2278)",
+        "CYCLE": "YY",
+        "STAT_NAME": "16.6.13 소득분배지표",
+        "STAT_CODE": "080Y038",
+        "P_STAT_CODE": "000Y086"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "17.거시경제분석 지표",
+        "STAT_CODE": "901Y001",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "18.국제/북한",
+        "STAT_CODE": "000Y001",
+        "P_STAT_CODE": "*"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "18.1.주요국제통계",
+        "STAT_CODE": "000Y172",
+        "P_STAT_CODE": "000Y001"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "18.1.1. 통화·금융",
+        "STAT_CODE": "000Y173",
+        "P_STAT_CODE": "000Y172"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "국제통화기금(IMF)",
+        "CYCLE": "MM",
+        "STAT_NAME": "18.1.1.1 본원통화",
+        "STAT_CODE": "I10Y011",
+        "P_STAT_CODE": "000Y173"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "국제통화기금(IMF)",
+        "CYCLE": "MM",
+        "STAT_NAME": "18.1.1.2 광의통화",
+        "STAT_CODE": "I10Y013",
+        "P_STAT_CODE": "000Y173"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "국제결제은행(BIS)",
+        "CYCLE": "MM",
+        "STAT_NAME": "18.1.1.3 중앙은행 정책금리",
+        "STAT_CODE": "I10Y014",
+        "P_STAT_CODE": "000Y173"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "18.1.2. 물가",
+        "STAT_CODE": "000Y174",
+        "P_STAT_CODE": "000Y172"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "국제통화기금(IMF)",
+        "CYCLE": "MM",
+        "STAT_NAME": "18.1.2.1 생산자물가지수",
+        "STAT_CODE": "I10Y021",
+        "P_STAT_CODE": "000Y174"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "국제통화기금(IMF)",
+        "CYCLE": "MM",
+        "STAT_NAME": "18.1.2.2 소비자물가지수",
+        "STAT_CODE": "I10Y022",
+        "P_STAT_CODE": "000Y174"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "18.1.3. 국제수지·외환",
+        "STAT_CODE": "000Y175",
+        "P_STAT_CODE": "000Y172"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "국제통화기금(IMF)",
+        "CYCLE": "QQ",
+        "STAT_NAME": "18.1.3.1 경상수지",
+        "STAT_CODE": "I10Y031",
+        "P_STAT_CODE": "000Y175"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "국제통화기금(IMF)",
+        "CYCLE": "QQ",
+        "STAT_NAME": "18.1.3.2 상품수지",
+        "STAT_CODE": "I10Y032",
+        "P_STAT_CODE": "000Y175"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "국제통화기금(IMF)",
+        "CYCLE": "QQ",
+        "STAT_NAME": "18.1.3.3 서비스수지",
+        "STAT_CODE": "I10Y033",
+        "P_STAT_CODE": "000Y175"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "국제통화기금(IMF)",
+        "CYCLE": "MM",
+        "STAT_NAME": "18.1.3.4 수출(통관기준)",
+        "STAT_CODE": "I10Y034",
+        "P_STAT_CODE": "000Y175"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "국제통화기금(IMF)",
+        "CYCLE": "MM",
+        "STAT_NAME": "18.1.3.5 수입(통관기준)",
+        "STAT_CODE": "I10Y035",
+        "P_STAT_CODE": "000Y175"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "국제통화기금(IMF)",
+        "CYCLE": "MM",
+        "STAT_NAME": "18.1.3.6 외환보유액",
+        "STAT_CODE": "I10Y036",
+        "P_STAT_CODE": "000Y175"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "18.1.4. 국민소득",
+        "STAT_CODE": "000Y176",
+        "P_STAT_CODE": "000Y172"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "경제협력개발기구(OECD)",
+        "CYCLE": "QQ",
+        "STAT_NAME": "18.1.4.1 경제성장률",
+        "STAT_CODE": "I10Y041",
+        "P_STAT_CODE": "000Y176"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "경제협력개발기구(OECD)",
+        "CYCLE": "YY",
+        "STAT_NAME": "18.1.4.2 국내총생산(GDP)",
+        "STAT_CODE": "I10Y042",
+        "P_STAT_CODE": "000Y176"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "경제협력개발기구(OECD)",
+        "CYCLE": "YY",
+        "STAT_NAME": "18.1.4.3 국내총생산(PPP적용)",
+        "STAT_CODE": "I10Y047",
+        "P_STAT_CODE": "000Y176"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "경제협력개발기구(OECD)",
+        "CYCLE": "YY",
+        "STAT_NAME": "18.1.4.4 국민총소득(GNI)",
+        "STAT_CODE": "I10Y043",
+        "P_STAT_CODE": "000Y176"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "경제협력개발기구(OECD)",
+        "CYCLE": "YY",
+        "STAT_NAME": "18.1.4.5 1인당 GDP",
+        "STAT_CODE": "I10Y044",
+        "P_STAT_CODE": "000Y176"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "18.1.5. 산업 및 고용",
+        "STAT_CODE": "000Y177",
+        "P_STAT_CODE": "000Y172"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "경제협력개발기구(OECD)",
+        "CYCLE": "MM",
+        "STAT_NAME": "18.1.5.1 산업생산지수(계절변동조정)",
+        "STAT_CODE": "I10Y051",
+        "P_STAT_CODE": "000Y177"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "경제협력개발기구(OECD)",
+        "CYCLE": "MM",
+        "STAT_NAME": "18.1.5.2 실업률(계절변동조정)",
+        "STAT_CODE": "I10Y052",
+        "P_STAT_CODE": "000Y177"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "경제협력개발기구(OECD)",
+        "CYCLE": "YY",
+        "STAT_NAME": "18.1.5.3 취업자수(계절변동조정)",
+        "STAT_CODE": "I10Y053",
+        "P_STAT_CODE": "000Y177"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "18.1.6. 주요시장지표",
+        "STAT_CODE": "000Y178",
+        "P_STAT_CODE": "000Y172"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "18.1.6.1 주요국제금리",
+        "STAT_CODE": "I10Y001",
+        "P_STAT_CODE": "000Y178"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "18.1.6.2 주가지수",
+        "STAT_CODE": "I10Y002",
+        "P_STAT_CODE": "000Y178"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "MM",
+        "STAT_NAME": "18.1.6.3 국제상품가격",
+        "STAT_CODE": "I10Y004",
+        "P_STAT_CODE": "000Y178"
+      },
+      {
+        "SRCH_YN": "N",
+        "ORG_NAME": "",
+        "CYCLE": "",
+        "STAT_NAME": "18.2.남북한 주요지표 비교",
+        "STAT_CODE": "000Y111",
+        "P_STAT_CODE": "000Y001"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "18.2.1 남북한 주요지표 비교(총량)",
+        "STAT_CODE": "034Y003",
+        "P_STAT_CODE": "000Y111"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "18.2.2 남북한 주요지표 비교(한국/북한 배율)",
+        "STAT_CODE": "034Y002",
+        "P_STAT_CODE": "000Y111"
+      },
+      {
+        "SRCH_YN": "Y",
+        "ORG_NAME": "",
+        "CYCLE": "YY",
+        "STAT_NAME": "18.3.북한GDP 관련 통계",
+        "STAT_CODE": "034Y001",
+        "P_STAT_CODE": "000Y001"
+      }
+    ]
+  }
+}

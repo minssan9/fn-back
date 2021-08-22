@@ -1,6 +1,6 @@
 package com.batch.tasklet;
 
-import com.core.ecos.apiservice.EcosApiService;
+import com.core.ecos.service.EcosBatchService;
 import com.core.ecos.dto.EcosDto;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -23,7 +23,7 @@ public class EcosJobStep2Tasklet implements Tasklet {
     private String str;
 
     @Autowired
-    EcosApiService ecosApiService;
+    EcosBatchService ecosBatchService;
 
     @Override
     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws Exception {
@@ -35,7 +35,7 @@ public class EcosJobStep2Tasklet implements Tasklet {
         ecosDto.setQueryStartDate(startDate);
         ecosDto.setQueryEndDate(endDate);
 
-        ecosApiService.retrieveData(ecosDto);
+        ecosBatchService.retrieveData(ecosDto);
 
         // step2 logic
 

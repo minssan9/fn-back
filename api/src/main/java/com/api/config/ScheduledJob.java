@@ -1,8 +1,6 @@
-package com.service.config;
+package com.api.config;
 
-import static com.core.config.properties.CoreProperties.DATE_STRING_FORMAT;
-
-import com.core.ecos.apiservice.EcosApiService;
+import com.core.ecos.service.EcosBatchService;
 import com.core.ecos.dto.EcosDto;
 import com.core.ecos.repo.EcosSchemaRepo;
 import java.time.LocalDateTime;
@@ -10,11 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 
+import static com.core.common.properties.StaticProperties.DATE_STRING_FORMAT;
+
 @EnableScheduling
 public class ScheduledJob {
 
     @Autowired
-    EcosApiService ecosApiService;
+    EcosBatchService ecosBatchService;
     @Autowired
     EcosSchemaRepo ecosSchemaRepo;
 
@@ -25,7 +25,7 @@ public class ScheduledJob {
         ecosDto.setQueryEndDate(nowDate);
         ecosDto.setQueryEndDate( nowDate);
 
-        ecosApiService.retrieveData(ecosDto);
+        ecosBatchService.retrieveData(ecosDto);
     }
 
 }

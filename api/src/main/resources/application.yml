@@ -2,14 +2,14 @@
 spring:
   profiles:
     group:
-      - "develop" : "default", "develop"
+      - "develop" : "default, develop, api"
 
 --- #api 환경
 
 spring:
   profiles:
     group:
-      - "release" : "default, release"
+      - "release" : "default, release, api"
 
 
 

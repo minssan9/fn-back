@@ -1,6 +1,6 @@
-package com.core.ecos.apiservice;
+package com.core.ecos.service;
 
-import com.core.config.properties.CoreProperties;
+import com.core.common.properties.StaticProperties;
 import com.core.ecos.domain.EcosSchema;
 import com.core.ecos.domain.EcosSchemaDetail;
 import com.core.ecos.dto.EcosDto;
@@ -30,31 +30,29 @@ import java.util.Map;
 
 @Slf4j
 @Service
-public class EcosApiServiceImplWebClient implements EcosApiService {
+public class EcosBatchServiceImplWebClient implements EcosBatchService {
 
     @Autowired    Gson gson;
 
     @Autowired    EcosDataRepo ecosDataRepo;
     @Autowired    EcosSchemaRepo ecosSchemaRepo;
     @Autowired    EcosSchemaDetailRepo ecosSchemaDetailRepo;
-    @Autowired    CoreProperties coreProperties;
+    @Autowired    StaticProperties staticProperties;
 
     @Autowired    private WebClient webClient;
 
 
-    @Override
     public JsonObject getJsonFromAPI(EcosDto ecosDto) {
-            ecosDto.setAuthKey(coreProperties.getECOS_API_KEY());
+            ecosDto.setAuthKey(staticProperties.getECOS_API_KEY());
 
         String response = webClient.get()
-            .uri(coreProperties.getECOS_API_URL() + getUrlString(ecosDto))
+            .uri(staticProperties.getECOS_API_URL() + getUrlString(ecosDto))
             .retrieve()
             .bodyToMono(String.class)
             .block();
         return gson.fromJson(response, JsonObject.class);
     }
-
-    @Override
+ 
     @Transactional
     public List<EcosData> getDataFromAPI(EcosDto ecosDto) {
         ecosDto.setServiceName("StatisticSearch");

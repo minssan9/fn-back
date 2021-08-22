@@ -1,10 +1,11 @@
 package com.core.service;
 
 
-import static com.core.config.properties.CoreProperties.DATE_STRING_FORMAT;
+
+import static com.core.common.properties.StaticProperties.DATE_STRING_FORMAT;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import com.core.ecos.apiservice.EcosApiService;
+import com.core.ecos.service.EcosBatchService;
 import com.core.ecos.domain.EcosData;
 import com.core.ecos.dto.EcosEnumType.CycleType;
 import com.core.ecos.domain.EcosSchemaDetail;
@@ -23,7 +24,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 class EcosServiceImplTest {
 
     @Autowired
-    EcosApiService ecosApiService;
+    EcosBatchService ecosBatchService;
 
     @Test
     void getAPIKOSPI() {
@@ -47,7 +48,7 @@ class EcosServiceImplTest {
     @Test
     void batchKOSDAQ() {
         String queryDate = "20210210";
-        List<EcosData> ecosData = ecosApiService.getDataFromAPI(
+        List<EcosData> ecosData = ecosBatchService.retrieveData(
                 new EcosDto("064Y001", "0001000", "", "", queryDate, queryDate, CycleType.DD, 1L, 1000L)
         );
         assertNotNull(ecosData);
@@ -60,12 +61,12 @@ class EcosServiceImplTest {
         ecosDto.setQueryStartDate(todayString);
         ecosDto.setQueryEndDate(todayString);
 
-        List<EcosSchemaDetail> ecosData =ecosApiService.retrieveData(ecosDto);
+        List<EcosSchemaDetail> ecosData = ecosBatchService.retrieveData(ecosDto);
         assertNotNull(ecosData);
     }
 
     @Test
     void batchSchema() {
-        ecosApiService.retrieveSchema();
+        ecosBatchService.retrieveSchema();
     }
 }

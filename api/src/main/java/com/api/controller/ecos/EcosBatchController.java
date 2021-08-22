@@ -1,6 +1,6 @@
-package com.service.controller;
+package com.api.controller.ecos;
 
-import com.core.ecos.apiservice.EcosApiService;
+import com.core.ecos.service.EcosBatchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,13 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/ecosapi")
-class EcosApiController {
+public
+class EcosBatchController {
     @Autowired
-    private EcosApiService ecosApiService;
+    private EcosBatchService ecosBatchService;
 
     @GetMapping("/schema")
     private ResponseEntity getTemplates() {
-        return ResponseEntity.ok().body(ecosApiService.retrieveSchema());
+        return ResponseEntity.ok().body(ecosBatchService.retrieveSchema());
     }
 
 //    @GetMapping("schema/update")

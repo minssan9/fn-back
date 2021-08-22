@@ -1,0 +1,20 @@
+{
+  "StatisticSearch": {
+    "list_total_count": 1,
+    "row": [
+      {
+        "UNIT_NAME": "십억원 ",
+        "STAT_NAME": "1.3.1.1 M2 상품별구성내역(말잔, 계절조정계열)",
+        "ITEM_CODE1": "BBGS06",
+        "STAT_CODE": "001Y406",
+        "ITEM_CODE2": " ",
+        "ITEM_CODE3": " ",
+        "ITEM_NAME1": "수익증권",
+        "ITEM_NAME2": " ",
+        "DATA_VALUE": "142922.5",
+        "ITEM_NAME3": " ",
+        "TIME": "201101"
+      }
+    ]
+  }
+}

@@ -1,11 +1,11 @@
 package com.batch.job;
 
 import com.batch.tasklet.EcosJobStep2Tasklet;
-import com.core.ecos.apiservice.EcosApiService;
+import com.core.ecos.service.EcosBatchService;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-import com.core.ecos.apiservice.EcosApiServiceImplREST;
+import com.core.ecos.service.EcosBatchServiceImplREST;
 import com.core.ecos.dto.EcosDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -53,12 +53,12 @@ public class EcosJobConfig {
                     log.info("sampleStep1 start : {}", str);
 
                     // step1 logic
-                    EcosApiService ecosApiService = new EcosApiServiceImplREST();
+                    EcosBatchService ecosBatchService = new EcosBatchServiceImplREST();
 
                     String nowDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd"));
                     String nowTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("HHmmss"));
                     EcosDto ecosDto = new EcosDto();
-                    ecosApiService.retrieveData(ecosDto);
+                    ecosBatchService.retrieveData(ecosDto);
 
 
                     if(false){

@@ -1,4 +1,4 @@
-package com.core.ecos.apiservice;
+package com.core.ecos.service;
 
 import com.core.ecos.domain.EcosData;
 import com.core.ecos.domain.EcosSchema;
@@ -10,11 +10,11 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public interface EcosApiService<T> {
-//    URI getUrlString(EcosDto ecosDto);
-    JsonObject getJsonFromAPI(EcosDto ecosDto);
-    List<EcosData> getDataFromAPI(EcosDto ecosDto) ;
+public interface EcosBatchService<T> {
+    //    URI getUrlString(EcosDto ecosDto);
+
     List<EcosSchema> retrieveSchema();
     List<EcosSchemaDetail> retrieveSchemaDetail();
+
     List<EcosData> retrieveData(EcosDto ecosDto);
 }

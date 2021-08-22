@@ -1,6 +1,6 @@
 package com.core.config;
 
-import com.core.config.properties.MysqlProperties;
+import com.core.common.properties.MysqlProperties;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 import java.util.Objects;
@@ -19,10 +19,10 @@ import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.transaction.PlatformTransactionManager;
 
 @Configuration
-@EnableJpaRepositories(basePackages = {"com.core.repo"},
+@EnableJpaRepositories(basePackages = {"com.core.*.repo"},
     entityManagerFactoryRef = "mysqlEntityManagerFactory",
     transactionManagerRef = "mysqlTransactionManager")
-@EntityScan(basePackages = "com.core.domain")
+@EntityScan(basePackages = "com.core.*.domain")
 public class JPAConfig {
     @Autowired
     MysqlProperties mysqlProperties;
@@ -49,7 +49,7 @@ public class JPAConfig {
     public LocalContainerEntityManagerFactoryBean mysqlEntityManagerFactory(
         EntityManagerFactoryBuilder builder) {
         return builder.dataSource(dataSource())
-            .packages("com.core.domain")
+            .packages("com.core.*.domain")
             .persistenceUnit("mysql")
             .build();
     }

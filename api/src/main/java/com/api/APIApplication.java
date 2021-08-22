@@ -1,6 +1,6 @@
-package com.service;
+package com.api;
 
-import com.core.ecos.apiservice.EcosApiService;
+import com.core.ecos.service.EcosBatchService;
 import com.core.ecos.domain.EcosSchemaDetail;
 import com.core.ecos.dto.EcosDto;
 import com.core.ecos.dto.EcosEnumType.CycleType;
@@ -15,11 +15,11 @@ import org.springframework.context.annotation.ComponentScan;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import static com.core.config.properties.CoreProperties.DATE_STRING_FORMAT;
+import static com.core.common.properties.StaticProperties.DATE_STRING_FORMAT;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages = {  "com.core", "com.service"})
+@ComponentScan(basePackages = {  "com.core", "com.api"})
 //@CrossOrigin(origins = {"*", "http://localhost"})
 public class APIApplication implements ApplicationRunner {
 
@@ -27,7 +27,7 @@ public class APIApplication implements ApplicationRunner {
     @Autowired
     EcosSchemaRepo ecosSchemaRepo;
     @Autowired
-    EcosApiService ecosApiService;
+    EcosBatchService ecosBatchService;
 
     public static void main(String[] args) {
         SpringApplication.run(APIApplication.class, args);
@@ -39,8 +39,8 @@ public class APIApplication implements ApplicationRunner {
         String nowDate = LocalDateTime.now().format(DATE_STRING_FORMAT);
 //        ecosApiService.retrieveDataEachSchema(nowDate, nowDate);
 //        List<EcosSchema> ecosSchemaList = ecosApiService.retrieveSchema();
-        List<EcosSchemaDetail> ecosSchemaDetails = ecosApiService.retrieveSchemaDetail();
-        ecosApiService.retrieveData(new EcosDto(nowDate, nowDate, CycleType.MM));
+        List<EcosSchemaDetail> ecosSchemaDetails = ecosBatchService.retrieveSchemaDetail();
+        ecosBatchService.retrieveData(new EcosDto(nowDate, nowDate, CycleType.MM));
 //        ecosSchemaRepo.saveAll(ecosSchemaList);
     }
 

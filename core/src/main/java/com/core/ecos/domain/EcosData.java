@@ -23,17 +23,17 @@ public class EcosData {
         @GeneratedValue
         Long id;
 
-        @Field("unitName")  @SerializedName( "UNIT_NAME")               @Column(name = "UNIT_NAME")         private String unitName;
-        @Field("statName")  @SerializedName( "STAT_NAME")               @Column(name = "STAT_NAME")         private String statName;
-        @Field("statCode")  @SerializedName( "STAT_CODE")               @Column(name = "STAT_CODE")         private String statCode;
-        @Field("itemCode1")  @SerializedName( "ITEM_CODE1")              @Column(name = "ITEM_CODE1")         private String itemCode1;
-        @Field("itemCode2")  @SerializedName( "ITEM_CODE2")              @Column(name = "ITEM_CODE2")         private String itemCode2;
-        @Field("itemCode3")  @SerializedName( "ITEM_CODE3")              @Column(name = "ITEM_CODE3")         private String itemCode3;
-        @Field("itemName1")  @SerializedName( "ITEM_NAME1")              @Column(name = "ITEM_NAME1")         private String itemName1;
-        @Field("itemName2")  @SerializedName( "ITEM_NAME2")              @Column(name = "ITEM_NAME2")         private String itemName2;
-        @Field("itemName3")  @SerializedName( "ITEM_NAME3")              @Column(name = "ITEM_NAME3")         private String itemName3;
-        @Field("dataValue")  @SerializedName( "DATA_VALUE")              @Column(name = "DATA_VALUE")         private String dataValue;
-        @Field("createdDate")  @SerializedName( "createdDate")        @Column(name = "createdDate")        private String  createdDate;
+        @Field("unitName")  @SerializedName( "UNIT_NAME") @Column(name = "UNIT_NAME") private String unitName;
+        @Field("statName")  @SerializedName( "STAT_NAME") @Column(name = "STAT_NAME") private String statName;
+        @Field("statCode")  @SerializedName( "STAT_CODE") @Column(name = "STAT_CODE") private String statCode;
+        @Field("itemCode1")  @SerializedName( "ITEM_CODE1") @Column(name = "ITEM_CODE1") private String itemCode1;
+        @Field("itemCode2")  @SerializedName( "ITEM_CODE2") @Column(name = "ITEM_CODE2") private String itemCode2;
+        @Field("itemCode3")  @SerializedName( "ITEM_CODE3") @Column(name = "ITEM_CODE3") private String itemCode3;
+        @Field("itemName1")  @SerializedName( "ITEM_NAME1") @Column(name = "ITEM_NAME1") private String itemName1;
+        @Field("itemName2")  @SerializedName( "ITEM_NAME2") @Column(name = "ITEM_NAME2") private String itemName2;
+        @Field("itemName3")  @SerializedName( "ITEM_NAME3") @Column(name = "ITEM_NAME3") private String itemName3;
+        @Field("dataValue")  @SerializedName( "DATA_VALUE") @Column(name = "DATA_VALUE") private String dataValue;
+        @Field("createdDate")  @SerializedName( "createdDate") @Column(name = "createdDate") private String  createdDate;
 
         @ManyToOne(fetch = FetchType.LAZY)
         @JoinColumn(name = "P_STAT_CODE")

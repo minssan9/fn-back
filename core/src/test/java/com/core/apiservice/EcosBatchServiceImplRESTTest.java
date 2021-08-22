@@ -1,8 +1,9 @@
 package com.core.apiservice;
 
-import com.core.ecos.apiservice.EcosApiService;
+import com.core.ecos.service.EcosBatchService;
 import com.core.ecos.domain.EcosSchemaDetail;
 import com.core.ecos.dto.EcosDto;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,17 +14,18 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import static com.core.config.properties.CoreProperties.DATE_STRING_FORMAT;
+import static com.core.common.properties.StaticProperties.DATE_STRING_FORMAT;
 import static org.junit.Assert.assertNotNull;
 
 @Profile("core")
 @SpringBootTest
 @RunWith(SpringRunner.class)
-class EcosApiServiceImplRESTTest {
+class EcosBatchServiceImplRESTTest {
 
     @Autowired
-    EcosApiService ecosApiService;
+    EcosBatchService ecosBatchService;
 
+    @DisplayName("Ecos Data 받아오기")
     @Test
     void retrieveData() {
 
@@ -44,7 +46,7 @@ class EcosApiServiceImplRESTTest {
 
     @Test
     void retrieveSchemaDetail() {
-        List<EcosSchemaDetail> result = ecosApiService.retrieveSchemaDetail();
+        List<EcosSchemaDetail> result = ecosBatchService.retrieveSchemaDetail();
         assertNotNull(result);
     }
 
@@ -55,7 +57,7 @@ class EcosApiServiceImplRESTTest {
         ecosDto.setQueryStartDate(nowDate);
         ecosDto.setQueryEndDate(nowDate);
 
-        List<EcosSchemaDetail> ecosSchemasDetails =  ecosApiService.retrieveData( ecosDto);
+        List<EcosSchemaDetail> ecosSchemasDetails =  ecosBatchService.retrieveData( ecosDto);
         assertNotNull(ecosSchemasDetails);
     }
 

@@ -1,10 +1,9 @@
-package com.service.controller;
+package com.api.controller.ecos;
 
 import com.core.ecos.domain.EcosData;
 import com.core.ecos.domain.EcosSchema;
 import com.core.ecos.repo.EcosDataRepo;
 import com.core.ecos.repo.EcosSchemaRepo;
-import com.core.ecos.service.EcosService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -22,8 +21,6 @@ import org.springframework.web.bind.annotation.RestController;
 @Tag(name = "ecos data source example", description = "This controller is for the test")
 @RestController("ecos")
 class EcosController {
-    @Autowired
-    private EcosService ecosService;
 
     @Autowired
     private EcosSchemaRepo ecosSchemaRepo;

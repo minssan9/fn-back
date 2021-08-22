@@ -2,8 +2,8 @@ package com.core.apiservice;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import com.core.config.properties.CoreProperties;
-import com.core.ecos.apiservice.EcosApiService;
+import com.core.common.properties.StaticProperties;
+import com.core.ecos.service.EcosBatchService;
 import com.core.ecos.domain.EcosSchema;
 import java.util.List;
 
@@ -16,22 +16,22 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
-class EcosApiServiceImplWebClientTest {
+class EcosBatchServiceImplWebClientTest {
 
     @Autowired
-    CoreProperties coreProperties;
+    StaticProperties staticProperties;
     @Autowired
-    EcosApiService ecosApiServiceImplWebClient;
+    EcosBatchService ecosBatchServiceImplWebClient;
 
     @Test
     void retrieveSchema() {
-        List<EcosSchema> list = ecosApiServiceImplWebClient.retrieveSchema();
+        List<EcosSchema> list = ecosBatchServiceImplWebClient.retrieveSchema();
         assertNotNull(list);
     }
 
     @Test
     void retrieveSchemaDetail() {
-        List<EcosSchemaDetail> result = ecosApiServiceImplWebClient.retrieveSchemaDetail();
+        List<EcosSchemaDetail> result = ecosBatchServiceImplWebClient.retrieveSchemaDetail();
         assertNotNull(result);
     }
 
